@@ -388,7 +388,7 @@
 .end method
 
 .method public static toTotalCaptureResult(Lcom/xiaomi/protocol/ICustomCaptureResult;IZ)Landroid/hardware/camera2/TotalCaptureResult;
-    .locals 22
+    .locals 26
     .annotation system Ldalvik/annotation/MethodParameters;
         accessFlags = {
             0x0,
@@ -486,7 +486,7 @@
 
     if-lt v0, v6, :cond_0
 
-    const/16 v0, 0xb
+    const/16 v0, 0xd
 
     :try_start_1
     new-array v6, v0, [Ljava/lang/Class;
@@ -521,6 +521,18 @@
     const/16 v20, 0xa
 
     aput-object v19, v6, v20
+
+    sget-object v19, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
+
+    const/16 v22, 0xb
+
+    aput-object v19, v6, v22
+
+    sget-object v19, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
+
+    const/16 v23, 0xc
+
+    aput-object v19, v6, v23
 
     .line 8
     invoke-virtual {v5, v6}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
@@ -596,6 +608,22 @@
     move-result-object v18
 
     aput-object v18, v0, v20
+
+    const/16 v24, 0x0
+
+    invoke-static/range {v24 .. v24}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v19
+
+    aput-object v19, v0, v22
+
+    const/16 v25, 0x0
+
+    invoke-static/range {v25 .. v25}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v19
+
+    aput-object v19, v0, v23
 
     .line 11
     invoke-virtual {v6, v0}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
