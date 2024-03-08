@@ -1175,9 +1175,6 @@
     invoke-direct {p0, v0, p2}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
     :goto_0
-    const-string p1, "com.miui.gallery"
-
-    invoke-virtual {p0, p1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
     const-string p1, "from_MiuiCamera"
 
