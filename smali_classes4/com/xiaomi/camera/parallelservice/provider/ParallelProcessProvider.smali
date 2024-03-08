@@ -452,18 +452,6 @@
 
     invoke-static {v0, v3, v2}, Lcom/android/camera/log/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    invoke-static {}, Lub/c;->r2()Lub/c;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lub/c;->D2()Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    const/4 v1, 0x4
-
     :cond_0
     :goto_0
     return v1
