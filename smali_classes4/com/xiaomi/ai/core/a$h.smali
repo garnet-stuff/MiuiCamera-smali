@@ -21,6 +21,7 @@
 
 .field public static final c:Ljava/lang/String; = "locale.region"
 
+.field public static final launcher_ic_fg_cv:I = 0x7f0f0004
 
 # direct methods
 .method public constructor <init>()V
