@@ -12813,6 +12813,7 @@
     <public type="layout" name="wideselfie_view" id="0x7f0e0265" />
     <public type="layout" name="zoom_ratio_toggle_view" id="0x7f0e0266" />
     <public type="layout" name="zoom_top_tip_layout" id="0x7f0e0267" />
+    <public type="mipmap" name="launcher_ic_fg_cv" id="0x7f0f0004" />
     <public type="mipmap" name="ic_launcher_camera_cv" id="0x7f0f0000" />
     <public type="plurals" name="a_hour_ago" id="0x7f100000" />
     <public type="plurals" name="abbrev_a_hour_ago" id="0x7f100001" />
