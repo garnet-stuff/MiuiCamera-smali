@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/slide_tip_textsize" android:textStyle="normal" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/beauty_smooth_tip" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/zoom_slide_layout_height" android:layout_marginBottom="@dimen/zoom_slide_layout_height" android:singleLine="true" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/beauty_slide_parent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

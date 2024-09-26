@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/vp_preview_background" android:background="@drawable/vp_preview_background_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/vp_preview_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.cardview.widget.CardView android:id="@id/vp_preview_card_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="@color/fullscreen_background" app:cardCornerRadius="@dimen/vv_preview_list_corner" app:cardElevation="0.0dip">
+            <ImageView android:id="@id/vv_preview_item_image" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <com.android.camera.ui.TextureVideoView android:id="@id/vv_preview_texture_video" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/vp_preview_sound_switch" android:layout_width="@dimen/vp_preview_sound_switch_width" android:layout_height="@dimen/vp_preview_sound_switch_width" android:src="@drawable/ic_sound_off" android:scaleType="centerInside" />
+            <com.airbnb.lottie.LottieAnimationView android:layout_gravity="end|center|top" android:id="@id/vv_preview_item_collapsing" android:visibility="gone" android:layout_width="@dimen/vp_ic_shrink_width" android:layout_height="@dimen/vp_ic_shrink_width" android:contentDescription="@string/accessibility_reduce" />
+            <TextView android:textSize="@dimen/vp_preview_video_info_text_size" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="start|bottom|center" android:id="@id/vp_preview_item_hint" android:paddingBottom="@dimen/vv_preview_hint_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/vv_preview_hint_margin" android:textFontWeight="600" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</FrameLayout>

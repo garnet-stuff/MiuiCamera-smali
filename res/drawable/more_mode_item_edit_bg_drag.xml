@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/cv_mode_edit_height" android:width="@dimen/cv_mode_edit_width" />
+    <corners android:radius="@dimen/cv_mode_edit_radius" />
+    <solid android:color="@color/mode_edit_drag_bg_color" />
+</shape>

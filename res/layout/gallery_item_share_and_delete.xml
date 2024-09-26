@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/gallery_item_share_or_delete_button" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/share" android:background="@drawable/gallery_share_or_delete_button_background" android:layout_width="@dimen/gallery_item_share_or_delete_button" android:layout_height="@dimen/gallery_item_share_or_delete_button" android:src="@drawable/gallery_item_share" android:scaleType="centerInside" android:layout_marginEnd="@dimen/gallery_item_share_button_end_margin" />
+    <ImageButton android:id="@id/delete" android:background="@drawable/gallery_share_or_delete_button_background" android:layout_width="@dimen/gallery_item_share_or_delete_button" android:layout_height="@dimen/gallery_item_share_or_delete_button" android:src="@drawable/gallery_item_delete" android:scaleType="centerInside" />
+</LinearLayout>

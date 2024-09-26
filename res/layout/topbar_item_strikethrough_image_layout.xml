@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera2.compat.theme.custom.mm.top.StrikethroughImageView android:focusable="false" android:layout_width="@dimen/top_bar_item_size_mm" android:layout_height="@dimen/top_bar_item_size_mm"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

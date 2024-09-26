@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_snap_width">93.09dip</dimen>
+    <dimen name="effect_comparison_video_height">138.91519dip</dimen>
+    <dimen name="effect_comparison_video_width">160.73318dip</dimen>
+    <dimen name="manual_extra_horizontal_view_left">14.544983dip</dimen>
+    <dimen name="manual_extra_horizontal_view_right">31.269989dip</dimen>
+    <item type="dimen" name="menu_item_scale_size">0.365</item>
+    <dimen name="mode_select_item_text_size">13.47998sp</dimen>
+    <dimen name="mode_select_item_text_size_mm">13.47998dip</dimen>
+    <dimen name="more_mode_settings_video_height">312.72656dip</dimen>
+    <dimen name="more_mode_settings_video_width">156.35999dip</dimen>
+    <item type="dimen" name="pro_menu_item_scale_size">0.365</item>
+    <dimen name="pro_view_zoom_view_width">40.0dip</dimen>
+    <dimen name="scale_zoom_view_line_width">1.4499817dip</dimen>
+    <dimen name="slide_switch_button_image_item_padding">11.635986dip</dimen>
+    <dimen name="slide_switch_button_item_max_width">81.08179dip</dimen>
+    <dimen name="slide_switch_button_item_padding">12.363586dip</dimen>
+    <dimen name="top_menu_item_height">83.649994dip</dimen>
+    <dimen name="top_menu_item_imageview_1080p_width">50.899994dip</dimen>
+    <dimen name="top_menu_item_imageview_720p_width">40.0dip</dimen>
+    <dimen name="top_menu_item_imageview_padding_start">18.139984dip</dimen>
+    <dimen name="top_menu_item_imageview_size">36.44998dip</dimen>
+    <dimen name="top_menu_item_padding_bottom">3.6399841dip</dimen>
+    <dimen name="top_menu_item_text_size_cv">10.909973dip</dimen>
+    <dimen name="top_menu_item_text_width">72.72998dip</dimen>
+    <dimen name="top_menu_item_width">94.53998dip</dimen>
+    <dimen name="top_menu_padding_bottom">7.269989dip</dimen>
+    <dimen name="top_menu_padding_radius">7.269989dip</dimen>
+    <dimen name="top_menu_padding_start">7.269989dip</dimen>
+    <dimen name="top_menu_reference_line_padding_top">23.089996dip</dimen>
+</resources>

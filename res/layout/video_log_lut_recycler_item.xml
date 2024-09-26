@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/video_log_lut_item_root" android:focusable="false" android:layout_width="@dimen/video_log_lut_item_width" android:layout_height="@dimen/video_log_lut_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/video_log_lut_item_view" android:focusable="false" android:layout_width="@dimen/video_log_lut_item_image_width" android:layout_height="@dimen/video_log_lut_item_image_height" app:cardBackgroundColor="@color/video_log_lut_item_bg" app:cardCornerRadius="@dimen/video_log_lut_item_corner_radius" app:cardElevation="0.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/video_log_lut_cover" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+        <ImageView android:id="@id/video_log_lut_item_selected_bg" android:background="@color/video_log_lut_background_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center" android:id="@id/video_log_lut_selected_more" android:padding="@dimen/video_log_lut_more_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/video_log_lut_none_import_item_margin_bottom" android:src="@drawable/ic_pro_video_log_lut_more_select" android:contentDescription="@null" />
+        <TextView android:textSize="@dimen/video_log_lut_item_index_text_size" android:textStyle="bold" android:ellipsize="end" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/video_log_lut_index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/video_log_lut_item_index_text_bottom" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    </androidx.cardview.widget.CardView>
+    <ImageView android:id="@id/video_log_lut_item_selected_indicator" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+</FrameLayout>

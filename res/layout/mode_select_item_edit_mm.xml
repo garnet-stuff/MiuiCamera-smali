@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/mode_select_item_layout" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mm_common_item_layout_top_margin" android:paddingHorizontal="@dimen/mm_common_item_gap" android:paddingVertical="@dimen/mm_common_view_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/mode_select_edit_item" android:background="@drawable/bg_common_mode_edit_bg" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" android:paddingHorizontal="@dimen/mm_common_bg_padding_horizontal" android:paddingVertical="@dimen/mm_common_bg_padding_vertical">
+        <com.android.camera.ui.AdaptiveMarqueeTextView android:textSize="@dimen/mode_select_item_text_size" android:textStyle="bold" android:ellipsize="marquee" android:gravity="center" android:id="@id/mode_select_edit_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:marqueeRepeatLimit="marquee_forever" android:importantForAccessibility="no" android:fallbackLineSpacing="false" />
+    </FrameLayout>
+</FrameLayout>

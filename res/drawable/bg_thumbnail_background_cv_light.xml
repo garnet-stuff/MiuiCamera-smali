@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center">
+        <shape android:shape="oval" android:useLevel="true">
+            <size android:height="@dimen/bottom_picker_width_cv" android:width="@dimen/bottom_picker_width_cv" />
+            <stroke android:width="1.8179932dip" android:color="#4d444444" />
+        </shape>
+    </item>
+</layer-list>

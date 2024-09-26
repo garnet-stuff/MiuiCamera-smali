@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cvtype_btn_select_marginbottom">54.544983dip</dimen>
+    <dimen name="cvtype_btn_select_width">287.26562dip</dimen>
+    <dimen name="cvtype_hint_viewpager_height">472.79688dip</dimen>
+    <dimen name="cvtype_hint_viewpager_marginbottom">38.90799dip</dimen>
+    <dimen name="cvtype_hint_viewpager_width">294.53906dip</dimen>
+    <dimen name="cvtype_item_card_height">392.72656dip</dimen>
+    <dimen name="video_bokeh_margin_bottom_cv">2.899994dip</dimen>
+    <dimen name="video_bokeh_margin_left_cv">29.724976dip</dimen>
+    <dimen name="video_bokeh_margin_right_cv">32.625dip</dimen>
+    <dimen name="zoom_ratio_dot_gap_cv">3.6399841dip</dimen>
+    <dimen name="zoom_ratio_toggle_view_bg_radius">20.0dip</dimen>
+    <dimen name="zoom_selected_view_stroke_width">1.4499817dip</dimen>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/makeup_item" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/container_wrapper" android:layout_width="@dimen/beauty_item_height_mm" android:layout_height="@dimen/beauty_item_height_mm" android:layout_marginTop="@dimen/beauty_icon_top_margin_mm">
+        <FrameLayout android:id="@id/beauty_pattern" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.android.camera2.compat.theme.custom.mm.beauty.BeautyProcessRing android:layout_gravity="center" android:id="@id/makeup_process" android:layout_width="@dimen/beauty_process_height_mm" android:layout_height="@dimen/beauty_process_height_mm" />
+            <com.android.camera.ui.ColorImageView android:layout_gravity="center" android:id="@id/makeup_item_icon" android:layout_width="@dimen/beautycamera_makeup_icon_height_cv" android:layout_height="@dimen/beautycamera_makeup_icon_height_cv" android:scaleType="center" />
+        </FrameLayout>
+        <com.android.camera.ui.ScrollTextview android:textSize="@dimen/filter_item_text_size_mm" android:textStyle="normal" android:textColor="@color/beautycamera_beauty_advanced_item_text_normal_cv" android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@id/makeup_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/beauty_item_v_gap_mm" android:singleLine="true" android:includeFontPadding="false" android:marqueeRepeatLimit="marquee_forever" android:fallbackLineSpacing="false" />
+    </LinearLayout>
+</LinearLayout>

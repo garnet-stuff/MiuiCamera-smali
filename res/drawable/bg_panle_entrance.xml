@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/plane_entrance_bg_padding" android:insetRight="@dimen/plane_entrance_bg_padding" android:insetTop="@dimen/plane_entrance_bg_padding" android:insetBottom="@dimen/plane_entrance_bg_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="oval">
+        <size android:height="@dimen/plane_entrance_stroke_size" android:width="@dimen/plane_entrance_stroke_size" />
+        <corners android:radius="@dimen/plane_entrance_stroke_radius" />
+        <stroke android:width="@dimen/plane_entrance_stroke_width" android:color="@color/vector_picker_cv" />
+        <solid android:color="@android:color/transparent" />
+    </shape>
+</inset>

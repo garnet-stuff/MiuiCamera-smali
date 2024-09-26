@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/watermark_sample_image_f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" />
+    <ViewStub android:id="@id/time" android:layout="@layout/time_watermark" android:inflatedId="@id/time_watermark" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/location" android:layout="@layout/location_watermark" android:inflatedId="@id/location_watermark" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/location_time_1" android:layout="@layout/location_time_1_watermark" android:inflatedId="@id/location_time_1_watermark" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/location_time_2" android:layout="@layout/location_time_2_watermark" android:inflatedId="@id/location_time_2_watermark" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/longitude_latitude" android:layout="@layout/longitude_latitude" android:inflatedId="@id/longitude_latitude_watermark" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

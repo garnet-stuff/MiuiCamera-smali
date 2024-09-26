@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/beauty_subeffect_icon_size" android:width="@dimen/beauty_subeffect_icon_size" android:viewportWidth="90.0" android:viewportHeight="90.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffffff" android:pathData="M32 43.9993C32 42.3425 33.3431 40.9993 35 40.9993H55C56.6569 40.9993 58 42.3425 58 43.9993V57.9993C58 61.313 55.3137 63.9993 52 63.9993H38C34.6863 63.9993 32 61.313 32 57.9993V43.9993ZM36 44.9993V57.9993C36 59.1039 36.8954 59.9993 38 59.9993H52C53.1046 59.9993 54 59.1039 54 57.9993V44.9993H36Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M36 28.3251C36 26.3319 37.9077 24.8929 39.8242 25.4405L46.7472 27.4185C51.0402 28.6451 54 32.5689 54 37.0337V41.9993C54 43.6562 52.6569 44.9993 51 44.9993H39C37.3431 44.9993 36 43.6562 36 41.9993V28.3251ZM40 29.6508V40.9993H50V37.0337C50 34.3549 48.2241 32.0006 45.6483 31.2646L40 29.6508Z" android:fillType="evenOdd" />
+</vector>

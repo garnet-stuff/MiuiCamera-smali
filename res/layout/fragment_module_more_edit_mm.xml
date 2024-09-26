@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="top" android:id="@id/more_mode_edit_head" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.android.camera.fragment.mode.more.EditDragLayout android:id="@id/edit_drag_layout" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <miuix.springback.view.SpringBackLayout android:layout_gravity="center|top" android:id="@id/mode_edit_list_new_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="350.0px" app:scrollableView="@id/mode_edit_list_new">
+            <com.android.camera.fragment.mode.more.DragMoreModeRecycleView android:layout_gravity="center|top" android:id="@id/mode_edit_list_new" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingHorizontal="@dimen/mode_list_hor_margin" />
+        </miuix.springback.view.SpringBackLayout>
+        <miuix.springback.view.SpringBackLayout android:layout_gravity="center|top" android:id="@id/mode_edit_list_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="350.0px" app:scrollableView="@id/mode_edit_list">
+            <com.android.camera.fragment.mode.more.DragMoreModeRecycleView android:layout_gravity="center|top" android:id="@id/mode_edit_list" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingHorizontal="@dimen/mode_list_hor_margin" />
+        </miuix.springback.view.SpringBackLayout>
+        <com.android.camera.fragment.mode.more.DragCommonModeRecycleView android:id="@id/common_mode_edit_list_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.android.camera.fragment.mode.more.EditDragLayout>
+</FrameLayout>

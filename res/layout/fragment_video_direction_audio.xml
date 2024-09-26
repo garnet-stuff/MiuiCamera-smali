@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:id="@id/direction_audio_parent" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/audio_gain_adjust_slide_layout" android:layout_width="fill_parent" android:layout_height="@dimen/picture_style_single_layout_height_mm" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/slide_tip_textsize" android:textStyle="normal" android:textColor="@color/white" android:id="@id/audio_gain_adjust_slider_tip" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_above="@id/audio_gain_adjust_slider" android:layout_centerHorizontal="true" style="@style/ShadowStyleMM" />
+        <com.android.camera2.compat.theme.custom.mm.beauty.ZoomViewMM android:id="@id/audio_gain_adjust_slider" android:layout_width="fill_parent" android:layout_height="@dimen/slide_height_mm" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/slide_leftpadding_mm" android:layout_marginEnd="@dimen/slide_leftpadding_mm" />
+    </RelativeLayout>
+    <miuix.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:id="@id/direction_audio_type_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

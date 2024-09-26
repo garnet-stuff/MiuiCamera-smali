@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+希望保留或丢弃某些特定资源，请在项目中使用标签创建一个 XML 文件<resources>，
+并指定要在tools:keep属性中保留的每个资源以及要在tools:discard属性中丢弃的每个资源。
+这两个属性都接受以逗号分隔的资源名称列表。您可以使用星号字符作为通配符。
+将此文件保存在您的项目资源中，例如，位于 res/raw/keep.xml. 构建不会将此文件打包到您的应用程序中。
+https://developer.android.com/build/shrink-code#keep-resources
+-->
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:shrinkMode="strict"
+    tools:keep="@dimen/*,@color/*,@string/*,@layout/fragment_vv*,@layout/mode_item*,@layout/fragment_beauty_makeup*,@array/ai_scene_drawables_cv*,@drawable/ic_shine_hair_puffy,@drawable/ic_new_ai_scene_*,@drawable/ic_wr_*,@drawable/ic_wp_*,@drawable/ic_water_*,@drawable/ic_ai_scene*,@raw/aiscene_*,@raw/lighting_*,@raw/normal_*,@raw/makeup_*,@raw/log_709,@raw/debug_blank_lut,@raw/blank,@raw/l_log_*,@raw/video_*,@raw/n_tone_*,@raw/beauty_india*,@raw/cvstyle_*" />

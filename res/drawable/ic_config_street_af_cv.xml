@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/ic_config_street_af_normal_cv" />
+    <item android:state_selected="false" android:drawable="@drawable/ic_config_street_af_cv_bg" />
+</selector>

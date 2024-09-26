@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/vp_segment_item_root" android:focusable="false" android:layout_width="@dimen/vp_segment_item_width" android:layout_height="@dimen/vp_segment_item_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/vp_segment_item_view" android:focusable="false" android:layout_width="@dimen/vp_segment_item_image_width" android:layout_height="@dimen/vp_segment_item_image_width" app:cardBackgroundColor="@color/vp_segment_item_bg" app:cardCornerRadius="@dimen/vp_segment_item_corner_radius" app:cardElevation="0.0dip">
+        <ImageView android:id="@id/dv_segment_cover" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+        <FrameLayout android:id="@id/vp_segment_item_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.android.camera.ui.ScrollTextview android:textSize="@dimen/vp_segment_item_duration_text_size" android:textStyle="bold" android:textColor="@color/color_white" android:ellipsize="marquee" android:layout_gravity="center" android:id="@id/vp_segment_duration" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <ImageView android:id="@id/vp_long_item_selected_bg" android:background="@color/vp_preview_background_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:layout_gravity="center" android:id="@id/vp_long_item_selected_more" android:padding="@dimen/vp_segment_selected_more_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_more_select" android:contentDescription="@null" />
+            <TextView android:textSize="@dimen/vp_segment_item_index_text_size" android:textStyle="bold" android:layout_gravity="end|bottom|center" android:id="@id/vp_segment_index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/vp_segment_item_index_margin_bottom" android:layout_marginEnd="@dimen/vp_segment_item_index_margin_end" />
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+    <ImageView android:id="@id/vp_item_selected_indicator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+</FrameLayout>

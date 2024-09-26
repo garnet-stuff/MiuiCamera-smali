@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="clone_guide_back_margin_end">138.72998dip</dimen>
+    <dimen name="clone_guide_tips_margin_top">318.97656dip</dimen>
+    <dimen name="clone_guide_tips_top_margin">111.099976dip</dimen>
+    <dimen name="clone_guide_title1_margin_top">241.5dip</dimen>
+    <dimen name="clone_guide_title2_margin_top">277.9375dip</dimen>
+    <dimen name="clone_guide_video_margin_left">111.099976dip</dimen>
+    <dimen name="clone_guide_video_margin_top">166.29999dip</dimen>
+    <dimen name="cvtype_hint_viewpager_marginbottom">60.72dip</dimen>
+    <dimen name="extra_top_bar_horizontal_padding_right">40.0dip</dimen>
+    <dimen name="manually_description_bg_image_margin_start">52.0dip</dimen>
+</resources>

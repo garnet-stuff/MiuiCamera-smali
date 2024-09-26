@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/cv_lens_parent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/light_recyclerview_height_cv" android:layout_marginBottom="@dimen/beautycamera_makeup_item_margin_cv">
+        <miuix.recyclerview.widget.RecyclerView android:layout_gravity="bottom|center" android:id="@id/cv_lens_list" android:visibility="gone" android:clickable="false" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

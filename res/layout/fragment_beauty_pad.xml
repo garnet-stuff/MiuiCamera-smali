@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/beauty_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/seekbar_margin_bottom">
+        <RelativeLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/parameter_adjust_layout" android:focusable="false" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/beautycamera_popup_fragment_height">
+            <ViewStub android:id="@id/sub_effect_indicator" android:visibility="gone" android:layout="@layout/beauty_sub_effect_indicator_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/beauty_subeffect_layout_margin_left" android:layout_alignParentStart="true" />
+            <FrameLayout android:id="@id/beauty_compare_layout" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/beautycamera_popup_fragment_height" android:layout_height="fill_parent" android:contentDescription="@string/accessibility_beauty_compare" android:layout_marginEnd="@dimen/beautycamera_compare_start_margin" android:layout_alignParentEnd="true">
+                <ImageView android:layout_gravity="center" android:id="@id/ic_beauty_compare" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+        </RelativeLayout>
+        <ViewStub android:orientation="horizontal" android:id="@id/makeup_level_adjust_stub" android:visibility="visible" android:layout="@layout/seek_bar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_gravity="bottom|center" android:id="@id/slide_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/slide_tip_textsize" android:textStyle="normal" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/beauty_tip" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#80000000" android:shadowRadius="1.0" />
+    </FrameLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:orientation="vertical" android:id="@id/beauty_viewPager" android:focusable="false" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</FrameLayout>

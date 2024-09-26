@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="bottom" android:layout_gravity="bottom" android:background="@drawable/makeup_item_bg" android:focusable="false" android:layout_width="@dimen/video_log_lut_item_width" android:layout_height="@dimen/style_workspace_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/style_item_image" android:layout_width="@dimen/mimoji_item_bottom_list" android:layout_height="30.0dip" android:scaleType="centerInside" android:contentDescription="@null" />
+        <TextView android:textSize="@dimen/video_log_lut_item_index_text_size" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/style_item_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="bottom" android:id="@id/style_item_selected_indicator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/effect_filter_item_selector_cv" android:contentDescription="@null" android:rotation="0.0" />
+</FrameLayout>

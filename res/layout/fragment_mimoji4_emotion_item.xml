@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="@dimen/emoticon_grid_decoration_width" android:layout_height="@dimen/emoticon_grid_decoration_width" android:layout_marginTop="@dimen/emoticon_grid_decoration_interval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/emotion_item_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:cropToPadding="true" />
+    <CheckBox android:theme="@style/MimojiCheckBox" android:layout_gravity="end|bottom|center" android:id="@id/emotion_item_sel_checkbox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/emotion_item_sel_img_margin" android:layout_marginEnd="@dimen/emotion_item_sel_img_margin" />
+</FrameLayout>

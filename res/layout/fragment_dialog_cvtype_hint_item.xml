@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="@dimen/cvtype_item_card_height" app:cardCornerRadius="@dimen/cvtype_item_card_radius" app:cardElevation="0.0dip">
+        <ImageView android:id="@id/cvtype_img_cv" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </androidx.cardview.widget.CardView>
+    <com.android.camera.ui.ScrollTextview android:textSize="@dimen/cvtype_item_title_size" android:textColor="@color/white" android:ellipsize="marquee" android:id="@id/cvtype_title_cv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cvtype_hint_viewpager_title_margintop" android:maxWidth="@dimen/cvtype_textview_maxwidth" android:singleLine="true" />
+</LinearLayout>

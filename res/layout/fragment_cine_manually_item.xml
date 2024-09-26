@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/cine_manually_item_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/cine_manually_value_text_size" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center" android:id="@id/cine_manually_item_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowDx="0.0" android:shadowDy="0.0" android:marqueeRepeatLimit="2" android:textDirection="ltr" style="@style/ShadowStyleMM" />
+        <LinearLayout android:gravity="center" android:id="@id/cine_manually_item_bottom_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cine_manually_value_margin_top">
+            <ImageView android:id="@id/cine_manually_item_value_image" android:visibility="visible" android:layout_width="@dimen/manually_proparm_auto_width" android:layout_height="@dimen/manually_proparm_auto_height" android:src="@drawable/ic_professional_parameter_auto_normal" android:scaleType="fitXY" />
+            <TextView android:textSize="@dimen/cine_manually_title_text_size" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/cine_manually_item_key" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowDx="0.0" android:shadowDy="0.0" android:marqueeRepeatLimit="marquee_forever" android:fallbackLineSpacing="false" style="@style/ShadowStyleMM" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/cine_manually_item_exposure_mode_image" android:visibility="gone" android:layout_width="@dimen/manually_exposure_mode_width" android:layout_height="@dimen/manually_exposure_mode_height" android:src="@drawable/ic_exposure_mode_manual_auto" android:scaleType="centerInside" />
+</LinearLayout>

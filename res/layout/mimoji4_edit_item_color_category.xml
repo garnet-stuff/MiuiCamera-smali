@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaomi.mimoji.mimojifu2.faceunity.editor.widget.CustomCircleIcon android:orientation="vertical" android:id="@id/circle_view" android:layout_width="@dimen/mimoji_color_icon_size" android:layout_height="@dimen/mimoji_color_icon_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

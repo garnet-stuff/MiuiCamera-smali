@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/mimoji_edit_preview_bg" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xiaomi.mimoji.mimojifu2.faceunity.editor.widget.ScaleGLTextureView android:id="@id/gl_texture_view" android:layout_width="fill_parent" android:layout_height="@dimen/edit_review_texture_height" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/rv_navigation_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mimoji_edit_back_top" android:importantForAccessibility="no" android:layout_marginStart="@dimen/mimoji_edit_back_left" android:layout_marginEnd="@dimen/mimoji_edit_back_left">
+        <TextView android:textSize="@dimen/mimoji_edit_back_text_size" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/tv_back" android:layout_width="wrap_content" android:layout_height="@dimen/top_bar_item_size" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        <TextView android:textSize="@dimen/mimoji_edit_back_text_size" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/btn_confirm" android:layout_width="wrap_content" android:layout_height="@dimen/top_bar_item_size" android:text="@string/mimoji_confirm" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/master_category" android:background="@drawable/mimoji_editor_master_oval_bg" android:paddingTop="@dimen/edit_master_category_padding" android:paddingBottom="@dimen/edit_master_category_padding" android:layout_width="@dimen/edit_master_category_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edit_master_category_margin_top" android:layout_marginEnd="@dimen/emoticon_bottom_padding_top" android:layout_alignParentEnd="true" />
+    <com.xiaomi.mimoji.mimojifu2.faceunity.editor.widget.CustomCategoryLinearLayout android:id="@id/minor_category_view" android:background="@color/mimoji_edit_manual_bg" android:layout_width="fill_parent" android:layout_height="@dimen/edit_minor_view_height" android:layout_marginTop="@dimen/edit_minor_view_top" />
+    <LinearLayout android:orientation="vertical" android:id="@id/subcategory_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/minor_category_view">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/sub_category_view" android:background="@color/mimoji_edit_manual_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/operate_select_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:id="@id/btn_create_emoticon" android:text="@string/mimoji_create_emoticon" style="@style/ButtonStyle.Normal.Dark" />
+        <Button android:id="@id/btn_save_finish" android:text="@string/mimoji_save_finish" style="@style/ButtonStyle.Primary.Dark" />
+    </LinearLayout>
+</RelativeLayout>

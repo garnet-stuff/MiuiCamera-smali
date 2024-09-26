@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="battery_height">5.0dip</dimen>
+    <dimen name="bottom_snap_width">87.0dip</dimen>
+    <dimen name="cine_manually_dual_lens_slide_view_margin_top">264.79688dip</dimen>
+    <dimen name="effect_comparison_video_height">129.9512dip</dimen>
+    <dimen name="effect_comparison_video_width">151.36679dip</dimen>
+    <dimen name="manual_extra_horizontal_view_left">14.319977dip</dimen>
+    <dimen name="manual_extra_horizontal_view_right">31.299988dip</dimen>
+    <item type="dimen" name="menu_item_scale_size">0.317</item>
+    <dimen name="mishot_top_tip_landscape_thin">112.85397dip</dimen>
+    <dimen name="mishot_topalert_recording_marginleft">16.362976dip</dimen>
+    <dimen name="mishot_topalert_rightpart_marginleft">22.72998dip</dimen>
+    <dimen name="mode_select_item_text_size">13.079987sp</dimen>
+    <dimen name="mode_select_item_text_size_mm">13.079987dip</dimen>
+    <dimen name="more_mode_settings_video_height">294.14062dip</dimen>
+    <dimen name="more_mode_settings_video_width">146.64279dip</dimen>
+    <item type="dimen" name="pro_menu_item_scale_size">0.317</item>
+    <dimen name="pro_view_zoom_view_width">39.0dip</dimen>
+    <dimen name="slide_switch_button_image_item_padding">10.179993dip</dimen>
+    <dimen name="slide_switch_button_item_max_width">70.94998dip</dimen>
+    <dimen name="slide_switch_button_item_padding">10.819dip</dimen>
+    <dimen name="top_menu_item_height">76.119995dip</dimen>
+    <dimen name="top_menu_item_imageview_1080p_width">46.319977dip</dimen>
+    <dimen name="top_menu_item_imageview_720p_width">36.399994dip</dimen>
+    <dimen name="top_menu_item_imageview_padding_start">16.5dip</dimen>
+    <dimen name="top_menu_item_imageview_size">33.099976dip</dimen>
+    <dimen name="top_menu_item_padding_bottom">3.3099976dip</dimen>
+    <dimen name="top_menu_item_text_size_cv">9.929993dip</dimen>
+    <dimen name="top_menu_item_text_width">66.19998dip</dimen>
+    <dimen name="top_menu_item_width">86.03dip</dimen>
+    <dimen name="top_menu_padding_bottom">6.619995dip</dimen>
+    <dimen name="top_menu_padding_radius">6.619995dip</dimen>
+    <dimen name="top_menu_padding_start">6.619995dip</dimen>
+    <dimen name="top_menu_reference_line_padding_top">21.0dip</dimen>
+    <dimen name="watermark_device_margin_start">11.319977dip</dimen>
+    <dimen name="watermark_regular_margin_top">177.16998dip</dimen>
+    <dimen name="watermark_sample_image_height">195.12dip</dimen>
+    <dimen name="watermark_sample_image_margin_bottom">9.759979dip</dimen>
+    <dimen name="watermark_sample_image_width">345.7578dip</dimen>
+    <dimen name="watermark_sample_margin_start">30.049988dip</dimen>
+    <dimen name="watermark_time_margin_start">270.82812dip</dimen>
+    <dimen name="zoom_ratio_dot_text_width">32.75dip</dimen>
+</resources>

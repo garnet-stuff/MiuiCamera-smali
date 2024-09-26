@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/id_card_mode_use_hint_layout_width" android:layout_height="wrap_content" android:contentDescription="@string/new_bie_dialog_desc"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/hint_item_video" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="138.18dip">
+            <ImageView android:id="@id/hint_item_video_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/cinematic_auto_focus_cover" />
+            <com.android.camera.ui.FastmotionTextureVideoView android:id="@id/hint_item_video_view" android:layout_width="fill_parent" android:layout_height="138.18dip" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/hint_item1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/hint_item_imageview1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/cv_lens2_intro_75mm" android:adjustViewBounds="true" />
+            <LinearLayout android:layout_gravity="end|bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cvlens_hint_margin_bottom" android:layout_marginEnd="@dimen/cvlens_hint_margin_end">
+                <TextView android:textSize="13.299988sp" android:textColor="@color/white" android:ellipsize="marquee" android:layout_gravity="end" android:id="@id/hint_item_image_text1" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/cvlens_hint_max_size" android:text="@string/cv_lens_portrait" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/hint_item2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/hint_item_imageview2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/cv_lens2_intro_75mm" android:adjustViewBounds="true" />
+            <LinearLayout android:layout_gravity="end|bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cvlens_hint_margin_bottom" android:layout_marginEnd="@dimen/cvlens_hint_margin_end">
+                <TextView android:textSize="13.299988sp" android:textColor="@color/white" android:ellipsize="marquee" android:layout_gravity="end" android:id="@id/hint_item_image_text2" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/cclock_hint_max_size" android:text="@string/cv_lens_portrait" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/newbie_cv_lens_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/newbie_cv_lens_title" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/hint_item_title" android:layout_width="@dimen/id_card_mode_use_hint_textview_ii_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/id_card_mode_use_hint_layout_margin_top_i" android:text="@string/cv_lens_title" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/newbie_cv_lens_context" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/hint_item_description" android:layout_width="@dimen/id_card_mode_use_hint_textview_ii_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/id_card_mode_use_hint_layout_margin_top_ii" android:layout_marginBottom="@dimen/id_card_mode_use_hint_textview_margin_left" android:text="@string/cv_lens_msg" />
+    </LinearLayout>
+</LinearLayout>

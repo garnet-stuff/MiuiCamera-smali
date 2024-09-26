@@ -1,0 +1,326 @@
+syntax = "proto3";
+
+import "IDMServiceProto.proto";
+
+package com.xiaomi.idm.compat.proto;
+
+option java_package = "com.xiaomi.idm.compat.proto";
+option java_outer_classname = "IPCParam";
+
+/*
+----------------------------------------------------------------------
+Common
+ */
+
+message TransHead {
+    string seq = 1;
+    string ack = 2;
+}
+
+message SendBlock {
+    TransHead head = 1;
+    string clientId = 2;
+    string serviceId = 3;
+    BlockFragment blockFragment = 4;
+}
+
+message OnBlockSendResult {
+    TransHead head = 1;
+    int32 code = 2;
+}
+
+message BlockFragment {
+    reserved 1, 2;
+    int32 fragmentSize = 3;
+    int32 fragmentOffset = 4;
+    int32 blockId = 5;
+    int32 blockSize = 6;
+}
+
+message OnBlockReceived {
+    string clientId = 1;
+    string serviceId = 2;
+    BlockFragment blockFragment = 3;
+}
+
+message Configuration {
+    Type type = 1;
+    bytes protoBytes = 2;
+    enum Type {
+        SEND_BLOCK = 0;
+    }
+}
+
+message RpcChannelStatus {
+    string clientId = 1;
+    string serviceId = 2;
+    int32 connectLevel = 3;
+    int32 rpcChannelType = 4;
+}
+
+message SendBlockConfiguration {
+    string clientId = 1;
+    string serviceId = 2;
+    int32 sizePerPacket = 3;
+    int32 maxParallelTask = 4;
+    int64 timeout = 5;
+}
+
+/*
+----------------------------------------------------------------------
+Params for IDMApi interfaces, which are defined in IMiConnect.aidl
+*/
+
+message IdentifyParam {
+    string userId = 1;
+    string sid = 2;
+    string cUserId = 3;
+    string serviceToken = 4;
+    string ssecurity = 5;
+    string timeDiff = 6;
+    string domain = 7;
+    string appId = 8;
+}
+
+message SetConnParam {
+    com.xiaomi.idm.api.proto.ConnParam connParam = 1;
+}
+
+/*
+----------------------------------------------------------------------
+Params for IMiConnect interfaces, which are defined in IMiConnect.aidl
+*/
+
+/*
+For IDMClient [begin]
+*/
+message RegisterIDMClient {
+    IdentifyParam identify = 1;
+    int32 sdkVersion = 15;
+}
+
+message StartDiscovery {
+    repeated string serviceTypes = 1;
+    repeated string serviceUuids = 2;
+    int32 discType = 3;
+    int32 serviceSecurityType = 4;
+}
+
+message SubscribeEventResult {
+    com.xiaomi.idm.api.proto.IDMEventResult eventResult = 1;
+}
+
+message ConnectService {
+    com.xiaomi.idm.api.proto.IDMService idmService = 1;
+    int32 commType = 2;
+    int32 commDataType = 3;
+    int32 connLevel = 4;
+    bool verifySameAccount = 5;
+    bytes privateData = 6;
+    int32 serviceSecurityType = 7;
+    int32 linkRole = 8;
+    repeated int32 rpcChannel = 9;
+}
+
+message DisconnectService {
+    string serviceId = 1;
+    int32 connLevel = 2;
+}
+
+message ClientAcceptConnection {
+    string serviceId = 1;
+    int32 connLevel = 2;
+}
+
+message ClientRejectConnection {
+    string serviceId = 1;
+    int32 connLevel = 2;
+}
+
+message InviteConnection {
+    string serviceType = 1;
+    com.xiaomi.idm.api.proto.ConnParam connParam = 2;
+}
+
+message AbortInvitation {
+    string serviceType = 1;
+}
+
+message Request {
+    com.xiaomi.idm.api.proto.IDMRequest idmRequest = 1;
+}
+
+message SetEventCallback {
+    com.xiaomi.idm.api.proto.IDMEvent idmEvent = 1;
+}
+
+message ReceivedOutOfBandInfo {
+    TransHead head = 1;
+    string serviceType = 2;
+    string oobInfo = 3;
+}
+/*
+For IDMClient [end]
+*/
+
+/*
+For IDMServer [begin]
+*/
+message RegisterIDMServer {
+    int32 sdkVersion = 15;
+}
+
+message RegisterService {
+    com.xiaomi.idm.api.proto.IDMService serviceProto = 1;
+    string intentStr = 2;
+    string intentType = 3;
+    int32 discType = 4;
+    int32 commType = 5;
+    int32 serviceSecurityType = 6;
+    bytes privateData = 7;
+}
+
+message UnregisterService {
+    com.xiaomi.idm.api.proto.IDMService idmService = 1;
+}
+
+message Response {
+    com.xiaomi.idm.api.proto.IDMResponse idmResponse = 1;
+}
+
+message ConnectServiceResponse {
+    com.xiaomi.idm.api.proto.IDMConnectServiceResponse idmConnectServiceResponse = 1;
+}
+
+message Event {
+    com.xiaomi.idm.api.proto.IDMService idmService = 1;
+    com.xiaomi.idm.api.proto.IDMEvent idmEvent = 2;
+}
+
+message AcceptInvitation {
+    string serviceId = 1;
+    string inviteStr = 2;
+}
+
+message EventResponse {
+    com.xiaomi.idm.api.proto.IDMEventResponse eventResponse = 1;
+}
+
+message CreateOutOfBoundInfo {
+    TransHead head = 1;
+    string serviceId = 2;
+}
+
+message UpdateServiceParam {
+    int32 discType = 1;
+    int32 advMode = 2;
+    bool updateAppData = 3;
+    bytes appData = 4;
+    int32 updateStrategy = 5;
+    int32 commType = 6;
+    int32 updateType = 7;
+}
+
+/*
+For IDMServer [end]
+*/
+
+/*
+----------------------------------------------------------------------
+Params for IIDMClientCallback callbacks, which are defined in IIDMClientCallback.aidl
+*/
+
+message OnServiceFound {
+    com.xiaomi.idm.api.proto.IDMService idmService = 1;
+}
+
+message OnServiceLost {
+    com.xiaomi.idm.api.proto.IDMService idmService = 1;
+    string serviceId = 2;
+}
+
+message OnResponse {
+    com.xiaomi.idm.api.proto.IDMResponse idmResponse = 1;
+}
+
+message OnEvent {
+    com.xiaomi.idm.api.proto.IDMEvent idmEvent = 1;
+}
+
+message OnServiceConnectStatus {
+    int32 status = 1;
+    string serviceId = 2;
+    com.xiaomi.idm.api.proto.Endpoint endpoint = 3;
+    com.xiaomi.idm.api.proto.ConnParam connParam = 4;
+}
+
+message OnInviteConnection {
+    int32 code = 1;
+    string inviteStr = 2;
+}
+
+message OnInvitationAccepted {
+    com.xiaomi.idm.api.proto.IDMService idmService = 1;
+}
+
+message OnDiscoveryResult {
+    int32 status = 1;
+}
+
+message ClientOnAccountChanged {
+    string newIdHash = 1;
+    com.xiaomi.idm.api.proto.OnAccountChangeResult.SubChangeType subChangeType = 2;
+}
+
+message OnSubscribeEventResult {
+    com.xiaomi.idm.api.proto.IDMEventResult eventResult = 1;
+}
+
+message OnEventRequest {
+    com.xiaomi.idm.api.proto.IDMEvent idmEvent = 1;
+}
+
+/*
+----------------------------------------------------------------------
+Params for IIDMServiceProcCallback callbacks, which are defined in IIDMServiceProcCallback.aidl
+*/
+message OnRequest {
+    com.xiaomi.idm.api.proto.IDMRequest idmRequest = 1;
+}
+
+message OnConnectServiceRequest {
+    com.xiaomi.idm.api.proto.IDMConnectServiceRequest idmConnectServiceRequest = 1;
+}
+
+message OnAdvertisingResult {
+    com.xiaomi.idm.api.proto.IDMAdvertisingResult idmAdvertisingResult = 1;
+}
+
+message OnSetEventCallback {
+    com.xiaomi.idm.api.proto.IDMEvent idmEvent = 1;
+}
+
+message ServiceOnServiceChanged {
+    string serviceId = 1;
+    string newServiceId = 2;
+    SubChangeType subChangeType = 3;
+    enum SubChangeType {
+        LOGIN = 0;
+        LOGOUT = 1;
+        CHANGE = 2;
+    }
+}
+
+message OnSubscribeEventRequest {
+    com.xiaomi.idm.api.proto.IDMEvent subsEventRequest = 1;
+}
+
+message OnNotifyEventResponse {
+    com.xiaomi.idm.api.proto.IDMEventResponse eventResponse = 1;
+}
+
+message OnOobInfoCreatedResult {
+    TransHead head = 1;
+    int32 code = 2;
+    string oobInfo = 3;
+}

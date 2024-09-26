@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/pref_header" android:paddingTop="@dimen/privacy_watermark_pref_header_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/hint_image" android:layout_width="@dimen/privacy_watermark_pref_hint_image_width" android:layout_height="@dimen/privacy_watermark_pref_hint_image_height" />
+        <View android:background="@color/pref_privacy_watermark_divider" android:layout_width="fill_parent" android:layout_height="@dimen/privacy_watermark_pref_divider_height" android:layout_marginHorizontal="@dimen/privacy_watermark_pref_divider_margin_horizontal" android:layout_marginVertical="@dimen/privacy_watermark_pref_divider_margin_vertical" />
+    </LinearLayout>
+    <androidx.fragment.app.FragmentContainerView android:id="@id/pref_content" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+</LinearLayout>

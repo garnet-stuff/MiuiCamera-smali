@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">Годину тому</item>
+        <item quantity="one">Годину тому</item>
+        <item quantity="few">Годину тому</item>
+        <item quantity="many">Годину тому</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">%d год назад</item>
+        <item quantity="one">%d год назад</item>
+        <item quantity="few">%d год назад</item>
+        <item quantity="many">%d год назад</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">Півгодини тому</item>
+        <item quantity="one">Півгодини тому</item>
+        <item quantity="few">Півгодини тому</item>
+        <item quantity="many">Півгодини тому</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">Через %d год</item>
+        <item quantity="one">Через %d год</item>
+        <item quantity="few">Через %d год</item>
+        <item quantity="many">Через %d год</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">Через півгодини</item>
+        <item quantity="one">Через півгодини</item>
+        <item quantity="few">Через півгодини</item>
+        <item quantity="many">Через півгодини</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Негайно</item>
+        <item quantity="one">Негайно</item>
+        <item quantity="few">Негайно</item>
+        <item quantity="many">Негайно</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">Через %d хв</item>
+        <item quantity="one">Через %d хв</item>
+        <item quantity="few">Через %d хв</item>
+        <item quantity="many">Через %d хв</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Тільки що</item>
+        <item quantity="one">Тільки що</item>
+        <item quantity="few">Тільки що</item>
+        <item quantity="many">Тільки що</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d хв назад</item>
+        <item quantity="one">%d хв назад</item>
+        <item quantity="few">%d хв назад</item>
+        <item quantity="many">%d хв назад</item>
+    </plurals>
+    <plurals name="accessibility_auto_night_tip">
+        <item quantity="other">%d-секундний таймер для нічного режиму</item>
+        <item quantity="one">%d-секундний таймер для нічного режиму</item>
+        <item quantity="few">%d-секундний таймер для нічного режиму</item>
+        <item quantity="many">%d-секундний таймер для нічного режиму</item>
+    </plurals>
+    <plurals name="accessibility_focus_face_detect">
+        <item quantity="other">Сфокусовано. Знайдено %d облич</item>
+        <item quantity="one">Сфокусовано. Знайдено %d обличчя</item>
+        <item quantity="few">Сфокусовано. Знайдено %d обличчя</item>
+        <item quantity="many">Сфокусовано. Знайдено %d облич</item>
+    </plurals>
+    <plurals name="accessibility_timer_burst_count">
+        <item quantity="other">%d фото у серійній зйомці</item>
+        <item quantity="one">%d фото у серійній зйомці</item>
+        <item quantity="few">%d фото у серійній зйомці</item>
+        <item quantity="many">%d фото у серійній зйомці</item>
+    </plurals>
+    <plurals name="accessibility_timer_burst_interval">
+        <item quantity="other">Інтервал: %d сек</item>
+        <item quantity="one">Інтервал: %d сек</item>
+        <item quantity="few">Інтервал: %d сек</item>
+        <item quantity="many">Інтервал: %d сек</item>
+    </plurals>
+    <plurals name="accessibility_vv_duartion">
+        <item quantity="other">Тривалість: %d секунд</item>
+        <item quantity="one">Тривалість: %d секунда</item>
+        <item quantity="few">Тривалість: %d секунди</item>
+        <item quantity="many">Тривалість: %d секунд</item>
+    </plurals>
+    <plurals name="cinemaster_toast_camera_overflow">
+        <item quantity="other">Ви можете підключити до %d камер до одної мережі</item>
+        <item quantity="one">Ви можете підключити до %d камери до одної мережі</item>
+        <item quantity="few">Ви можете підключити до %d камер до одної мережі</item>
+        <item quantity="many">Ви можете підключити до %d камер до одної мережі</item>
+    </plurals>
+    <plurals name="cinemaster_toast_monitor_overflow">
+        <item quantity="other">Ви можете підключити до %d моніторів до одної мережі</item>
+        <item quantity="one">Ви можете підключити до %d монітора до одної мережі</item>
+        <item quantity="few">Ви можете підключити до %d моніторів до одної мережі</item>
+        <item quantity="many">Ви можете підключити до %d моніторів до одної мережі</item>
+    </plurals>
+    <plurals name="clone_guide_tip2">
+        <item quantity="other">Ви можете створити не більше %d клонів за раз</item>
+        <item quantity="one">Ви можете створити не більше %d клона за раз</item>
+        <item quantity="few">Ви можете створити не більше %d клонів за раз</item>
+        <item quantity="many">Ви можете створити не більше %d клонів за раз</item>
+    </plurals>
+    <plurals name="exit_camera_hint">
+        <item quantity="other">&lt;Data>Помилка підключення до камери.&lt;br>Ця програма буде закрита через &lt;font color=#FFCE16>&lt;b>%1$d секунд&lt;/b>&lt;/font>. Після цього зачекайте хвилинку та повторіть спробу.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Помилка підключення до камери.&lt;br>Ця програма буде закрита через &lt;font color=#FFCE16>&lt;b>%1$d секунду&lt;/b>&lt;/font>. Після цього зачекайте хвилинку та повторіть спробу.&lt;/Data></item>
+        <item quantity="few">&lt;Data>Помилка підключення до камери.&lt;br>Ця програма буде закрита через &lt;font color=#FFCE16>&lt;b>%1$d секунди&lt;/b>&lt;/font>. Після цього зачекайте хвилинку та повторіть спробу.&lt;/Data></item>
+        <item quantity="many">&lt;Data>Помилка підключення до камери.&lt;br>Ця програма буде закрита через &lt;font color=#FFCE16>&lt;b>%1$d секунд&lt;/b>&lt;/font>. Після цього зачекайте хвилинку та повторіть спробу.&lt;/Data></item>
+    </plurals>
+    <plurals name="exit_thermal_hint">
+        <item quantity="other">&lt;Data>Перегрів пристрою.&lt;br>Ця програма буде закрита через &lt;font color=#FFCE16>&lt;b>%1$d секунд&lt;/b>&lt;/font>. Поточний процес буде збережено автоматично&lt;/Data></item>
+        <item quantity="one">&lt;Data>Перегрів пристрою.&lt;br>Ця програма буде закрита через &lt;font color=#FFCE16>&lt;b>%1$d секунду&lt;/b>&lt;/font>. Поточний процес буде збережено автоматично&lt;/Data></item>
+        <item quantity="few">&lt;Data>Перегрів пристрою.&lt;br>Ця програма буде закрита через &lt;font color=#FFCE16>&lt;b>%1$d секунди&lt;/b>&lt;/font>. Поточний процес буде збережено автоматично&lt;/Data></item>
+        <item quantity="many">&lt;Data>Перегрів пристрою.&lt;br>Ця програма буде закрита через &lt;font color=#FFCE16>&lt;b>%1$d секунд&lt;/b>&lt;/font>. Поточний процес буде збережено автоматично&lt;/Data></item>
+    </plurals>
+    <plurals name="exit_version_hint">
+        <item quantity="other">&lt;Data>Використовувана версія Камери несумісна з моделлю вашого пристрою.&lt;br>Програма буде закрита через &lt;font color=#FFCE16>&lt;b>%1$d секунд&lt;/b>&lt;/font>. Видаліть оновлення Камери та повторіть спробу.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Використовувана версія Камери несумісна з моделлю вашого пристрою.&lt;br>Програма буде закрита через &lt;font color=#FFCE16>&lt;b>%1$d секунду&lt;/b>&lt;/font>. Видаліть оновлення Камери та повторіть спробу.&lt;/Data></item>
+        <item quantity="few">&lt;Data>Використовувана версія Камери несумісна з моделлю вашого пристрою.&lt;br>Програма буде закрита через &lt;font color=#FFCE16>&lt;b>%1$d секунди&lt;/b>&lt;/font>. Видаліть оновлення Камери та повторіть спробу.&lt;/Data></item>
+        <item quantity="many">&lt;Data>Використовувана версія Камери несумісна з моделлю вашого пристрою.&lt;br>Програма буде закрита через &lt;font color=#FFCE16>&lt;b>%1$d секунд&lt;/b>&lt;/font>. Видаліть оновлення Камери та повторіть спробу.&lt;/Data></item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Перемотати вперед на %d секунди</item>
+        <item quantity="one">Перемотати вперед на %d секунду</item>
+        <item quantity="few">Перемотати вперед на %d секунди</item>
+        <item quantity="many">Перемотати вперед на %d секунд</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Перемотати назад на %d секунди</item>
+        <item quantity="one">Перемотати назад на %d секунду</item>
+        <item quantity="few">Перемотати назад на %d секунди</item>
+        <item quantity="many">Перемотати назад на %d секунд</item>
+    </plurals>
+    <plurals name="fastmotion_pro_min_unit">
+        <item quantity="other">%1$d хв</item>
+        <item quantity="one">%1$d хв</item>
+        <item quantity="few">%1$d хв</item>
+        <item quantity="many">%1$d хв</item>
+    </plurals>
+    <plurals name="fastmotion_pro_sec_unit">
+        <item quantity="other">%1$d сек</item>
+        <item quantity="one">%1$d сек</item>
+        <item quantity="few">%1$d сек</item>
+        <item quantity="many">%1$d сек</item>
+    </plurals>
+    <plurals name="friend_mode_display_first_dialog">
+        <item quantity="other">Увімкнено таймер (%1$d сек). Фото будуть перенесені на цей пристрій.</item>
+        <item quantity="one">Увімкнено таймер (%1$d сек). Фото будуть перенесені на цей пристрій.</item>
+        <item quantity="few">Увімкнено таймер (%1$d сек). Фото будуть перенесені на цей пристрій.</item>
+        <item quantity="many">Увімкнено таймер (%1$d сек). Фото будуть перенесені на цей пристрій.</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">Півгодини тому</item>
+        <item quantity="one">Півгодини тому</item>
+        <item quantity="few">Півгодини тому</item>
+        <item quantity="many">Півгодини тому</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">Через годину</item>
+        <item quantity="one">Через годину</item>
+        <item quantity="few">Через годину</item>
+        <item quantity="many">Через годину</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">Через півгодини</item>
+        <item quantity="one">Через півгодини</item>
+        <item quantity="few">Через півгодини</item>
+        <item quantity="many">Через півгодини</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Негайно</item>
+        <item quantity="one">Негайно</item>
+        <item quantity="few">Негайно</item>
+        <item quantity="many">Негайно</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">через %d хв</item>
+        <item quantity="one">через 1 хв</item>
+        <item quantity="few">через %d хв</item>
+        <item quantity="many">через %d хв</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Тільки що</item>
+        <item quantity="one">Тільки що</item>
+        <item quantity="few">Тільки що</item>
+        <item quantity="many">Тільки що</item>
+    </plurals>
+    <plurals name="live_workspace_delete_dialog_title">
+        <item quantity="other">Видалити %1$d чернеток?</item>
+        <item quantity="one">Видалити %1$d чернетку?</item>
+        <item quantity="few">Видалити %1$d чернетки?</item>
+        <item quantity="many">Видалити %1$d чернеток?</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">Обрано: %d</item>
+        <item quantity="one">Обрано: %d</item>
+        <item quantity="few">Обрано: %d</item>
+        <item quantity="many">Обрано: %d</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d хв тому</item>
+        <item quantity="one">1 хв тому</item>
+        <item quantity="few">%d хв тому</item>
+        <item quantity="many">%d хв тому</item>
+    </plurals>
+    <plurals name="number_unit_seconds_split">
+        <item quantity="other">%d сек</item>
+        <item quantity="one">%d сек</item>
+        <item quantity="few">%d сек</item>
+        <item quantity="many">%d сек</item>
+    </plurals>
+    <plurals name="pref_camera_fastmotion_duration_unit">
+        <item quantity="other">%1$s хв</item>
+        <item quantity="one">%1$s хв</item>
+        <item quantity="few">%1$s хв</item>
+        <item quantity="many">%1$s хв</item>
+    </plurals>
+    <plurals name="pref_live_duration_prompt">
+        <item quantity="other">Записати %d сек</item>
+        <item quantity="one">Записати %d сек</item>
+        <item quantity="few">Записати %d сек</item>
+        <item quantity="many">Записати %d сек</item>
+    </plurals>
+    <plurals name="timefreeze_guide_tip1">
+        <item quantity="other">Записувати відео із зупинкою часу можливо тільки з %d людбми в кадрі.</item>
+        <item quantity="one">Записувати відео із зупинкою часу можливо тільки з %d людиною в кадрі.</item>
+        <item quantity="few">Записувати відео із зупинкою часу можливо тільки з %d людьми в кадрі.</item>
+        <item quantity="many">Записувати відео із зупинкою часу можливо тільки з %d людьми в кадрі.</item>
+    </plurals>
+    <plurals name="timer_burst_setting_total_count">
+        <item quantity="other">%1$s фото</item>
+        <item quantity="one">%1$s фото</item>
+        <item quantity="few">%1$s фото</item>
+        <item quantity="many">%1$s фото</item>
+    </plurals>
+</resources>

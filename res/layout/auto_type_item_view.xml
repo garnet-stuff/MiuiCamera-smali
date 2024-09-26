@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.ColorImageView android:id="@id/main_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <com.android.camera.ui.ColorImageView android:id="@id/label_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <com.android.camera.ui.ScrollTextview android:textSize="@dimen/top_expend_spaces_item_textsize" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/label_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+</merge>

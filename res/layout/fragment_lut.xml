@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/video_log_lut_delete_view" android:background="@drawable/ic_pro_video_log_lut_delete_bg" android:visibility="gone" android:layout_width="@dimen/video_log_lut_item_delete_tip_width" android:layout_height="@dimen/video_log_lut_item_delete_tip_height">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/video_log_lut_delete_ic" android:background="@drawable/ic_pro_video_log_lut_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/video_log_lut_item_delete_ic_margin_top" />
+        <com.android.camera.ui.ScrollTextview android:textSize="@dimen/video_log_lut_item_delete_tip_text_size" android:textColor="@color/video_log_lut_delete_hint_text_color" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/video_log_lut_delete_text" android:layout_width="fill_parent" android:layout_height="@dimen/video_log_lut_item_delete_tip_text_height" android:text="@string/pref_camera_pro_video_log_lut_delete_hint" android:singleLine="true" android:textFontWeight="400" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/pro_video_log_lut_frame_layout" android:layout_width="fill_parent" android:layout_height="@dimen/video_log_lut_recyclerview_height_mm" android:layout_marginTop="@dimen/video_log_lut_recyclerview_margin_top_mm" android:layout_marginBottom="@dimen/video_log_lut_recyclerview_margin_bottom_mm">
+        <com.xiaomi.microfilm.vlogpro.StartEdgeHorizonScrollView android:id="@id/pro_video_log_lut_item_scrollview" android:scrollbars="none" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/video_log_lut_scrollview_height" android:layout_marginBottom="@dimen/video_log_lut_margin_bottom">
+            <miuix.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@id/pro_video_log_lut_item_list" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.xiaomi.microfilm.vlogpro.StartEdgeHorizonScrollView>
+    </FrameLayout>
+</FrameLayout>

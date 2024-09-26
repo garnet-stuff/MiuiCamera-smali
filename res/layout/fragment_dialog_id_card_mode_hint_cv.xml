@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="@dimen/id_card_mode_use_hint_layout_width" android:layout_height="wrap_content" android:minHeight="@dimen/privacy_watermark_mode_use_hint_layout_height" app:cardCornerRadius="@dimen/miuix_appcompat_dialog_bg_corner_radius">
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/new_bie_dialog_desc">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/id_card_drawable" />
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="@dimen/id_card_mode_use_hint_textview_ii_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/id_card_mode_use_hint_layout_margin_top_i" android:text="@string/id_card_mode_use_hint_text_title" />
+            <TextView android:textSize="14.0sp" android:textColor="#cc000000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="@dimen/id_card_mode_use_hint_textview_ii_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/id_card_mode_use_hint_layout_margin_top_ii" android:layout_marginBottom="@dimen/id_card_mode_use_hint_textview_margin_left" android:text="@string/id_card_mode_use_hint_text_body" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <ImageButton android:id="@id/btn_cancel" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/id_card_mode_dialog_cancel_margin_top" android:src="@drawable/ic_vector_dialog_cancel" android:contentDescription="@string/new_bie_dialog_cancel" />
+</LinearLayout>

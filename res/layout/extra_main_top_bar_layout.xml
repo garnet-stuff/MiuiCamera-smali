@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera2.compat.theme.custom.mm.top.ExtraTopBarLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera2.compat.theme.custom.mm.top.TopBarRecyclerView android:layout_gravity="left" android:id="@id/start_extra_topbar_first_part" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@id/start_extra_topbar_second_part" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.android.camera2.compat.theme.custom.mm.top.TopBarRecyclerView android:layout_gravity="right" android:id="@id/end_extra_top_bar_rv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.android.camera2.compat.theme.custom.mm.top.ExtraTopBarLayout>

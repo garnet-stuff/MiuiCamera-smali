@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="146.0dip" android:width="146.0dip" android:viewportWidth="146.0" android:viewportHeight="146.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ffffffff" android:pathData="M47,49C47,47.895 47.895,47 49,47H97C98.105,47 99,47.895 99,49V97C99,98.105 98.105,99 97,99H49C47.895,99 47,98.105 47,97V49Z" android:strokeColor="#ffffffff" android:strokeWidth="4.0" android:fillAlpha="0.04" />
+    <path android:fillColor="@drawable/$ic_mode_ambilight_cv__0" android:pathData="M53,59L91,59A1,1 0,0 1,92 60L92,62A1,1 0,0 1,91 63L53,63A1,1 0,0 1,52 62L52,60A1,1 0,0 1,53 59z" />
+    <path android:fillColor="@drawable/$ic_mode_ambilight_cv__1" android:pathData="M53,71L91,71A1,1 0,0 1,92 72L92,74A1,1 0,0 1,91 75L53,75A1,1 0,0 1,52 74L52,72A1,1 0,0 1,53 71z" />
+    <path android:fillColor="@drawable/$ic_mode_ambilight_cv__2" android:pathData="M53,83L91,83A1,1 0,0 1,92 84L92,86A1,1 0,0 1,91 87L53,87A1,1 0,0 1,52 86L52,84A1,1 0,0 1,53 83z" />
+</vector>

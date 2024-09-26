@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.ScrollTextview android:textSize="@dimen/beauty_mode_hint_title_text_size" android:textColor="@color/beauty_mode_hint_title_text_color" android:ellipsize="marquee" android:layout_gravity="center_horizontal" android:id="@id/beauty_mode_hint_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/beauty_mode_hint_title_max_width" android:text="@string/beauty_mode_hint_title" android:singleLine="true" android:alpha="0.9" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <miuix.visual.check.VisualCheckGroup android:id="@id/beauty_mode_check_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/beauty_mode_check_group_margin_top">
+            <miuix.visual.check.VisualCheckBox android:orientation="vertical" android:id="@id/beauty_mode_checkbox_civi_lilt" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <miuix.visual.check.BorderLayout android:padding="@dimen/beauty_mode_item_image_padding" android:layout_width="@dimen/beauty_mode_item_image_width" android:layout_height="@dimen/beauty_mode_item_image_height">
+                    <ImageView android:id="@id/beauty_mode_img_civi_lilt" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/beauty_mode_civi_lilt" android:scaleType="fitXY" />
+                </miuix.visual.check.BorderLayout>
+                <ImageView android:id="@id/beauty_mode_title_logo_civi_lilt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/beauty_mode_item_logo_margin_top" android:src="@drawable/beauty_mode_title_logo" android:tint="@color/beauty_mode_item_logo_color" />
+                <miuix.visual.check.VisualCheckedTextView android:textSize="@dimen/beauty_mode_item_title_text_size" android:textColor="@color/beauty_mode_item_title_text_color" android:gravity="center" android:id="@id/beauty_mode_title_civi_lilt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/beauty_mode_item_title_margin_top" android:text="@string/beauty_mode_item_title1" />
+            </miuix.visual.check.VisualCheckBox>
+            <miuix.visual.check.VisualCheckBox android:orientation="vertical" android:id="@id/beauty_mode_checkbox_civi_film" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <miuix.visual.check.BorderLayout android:padding="@dimen/beauty_mode_item_image_padding" android:layout_width="@dimen/beauty_mode_item_image_width" android:layout_height="@dimen/beauty_mode_item_image_height">
+                    <ImageView android:id="@id/beauty_mode_img_civi_film" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/beauty_mode_civi_film" android:scaleType="fitXY" />
+                </miuix.visual.check.BorderLayout>
+                <ImageView android:id="@id/beauty_mode_title_logo_civi_film" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/beauty_mode_item_logo_margin_top" android:src="@drawable/beauty_mode_title_logo" android:tint="@color/beauty_mode_item_logo_color" />
+                <miuix.visual.check.VisualCheckedTextView android:textSize="@dimen/beauty_mode_item_title_text_size" android:textColor="@color/beauty_mode_item_title_text_color" android:gravity="center" android:id="@id/beauty_mode_title_civi_film" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/beauty_mode_item_title_margin_top" android:text="@string/beauty_mode_item_title2" />
+            </miuix.visual.check.VisualCheckBox>
+        </miuix.visual.check.VisualCheckGroup>
+    </LinearLayout>
+</LinearLayout>

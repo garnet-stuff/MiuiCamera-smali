@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/alpha95_black" />
+    <item android:drawable="@color/video_prompter_import_container_bg_color_1" android:left="1.0dip" android:top="1.0dip" android:right="1.0dip" />
+</layer-list>

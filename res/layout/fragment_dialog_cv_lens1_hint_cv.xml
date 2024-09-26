@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="0.0dip" app:cardBackgroundColor="@color/fullscreen_background" app:cardCornerRadius="@dimen/miuix_appcompat_dialog_bg_corner_radius">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/id_card_mode_use_hint_layout_width" android:layout_height="wrap_content" android:contentDescription="@string/new_bie_dialog_desc">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:id="@id/cv_lens_35" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/cv_lens1_intro_35mm" android:adjustViewBounds="true" />
+                    <LinearLayout android:layout_gravity="end|bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cvlens_hint_margin_bottom" android:layout_marginEnd="@dimen/cvlens_hint_margin_end">
+                        <TextView android:textSize="13.299988sp" android:textColor="@color/white" android:ellipsize="marquee" android:layout_gravity="end" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/cvlens_hint_max_size" android:text="@string/cv_lens_humanities" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                        <TextView android:textSize="8.799988sp" android:textColor="@color/white" android:layout_gravity="end|bottom|center" android:id="@id/cv_lens_hint_35mm" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </FrameLayout>
+                <FrameLayout android:id="@id/cv_lens_50" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/cv_lens1_intro_50mm" android:adjustViewBounds="true" />
+                    <LinearLayout android:layout_gravity="end|bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cvlens_hint_margin_bottom" android:layout_marginEnd="@dimen/cvlens_hint_margin_end">
+                        <TextView android:textSize="13.299988sp" android:textColor="@color/white" android:ellipsize="marquee" android:layout_gravity="end" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/cvlens_hint_max_size" android:text="@string/cv_lens_rotary_focus" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                        <TextView android:textSize="8.799988sp" android:textColor="@color/white" android:layout_gravity="end|bottom|center" android:id="@id/cv_lens_hint_50mm" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </FrameLayout>
+                <FrameLayout android:id="@id/cv_lens_75" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/cv_lens1_intro_35mm" android:adjustViewBounds="true" />
+                    <LinearLayout android:layout_gravity="end|bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cvlens_hint_margin_bottom" android:layout_marginEnd="@dimen/cvlens_hint_margin_end">
+                        <TextView android:textSize="13.299988sp" android:textColor="@color/white" android:ellipsize="marquee" android:layout_gravity="end" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/cvlens_hint_max_size" android:text="@string/cv_lens_portrait" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                        <TextView android:textSize="8.799988sp" android:textColor="@color/white" android:layout_gravity="end|bottom|center" android:id="@id/cv_lens_hint_75mm" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </FrameLayout>
+                <FrameLayout android:id="@id/cv_lens_90" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/cv_lens1_intro_90mm" android:adjustViewBounds="true" />
+                    <LinearLayout android:layout_gravity="end|bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cvlens_hint_margin_bottom" android:layout_marginEnd="@dimen/cvlens_hint_margin_end">
+                        <TextView android:textSize="13.299988sp" android:textColor="@color/white" android:ellipsize="marquee" android:layout_gravity="end" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/cvlens_hint_max_size" android:text="@string/cv_lens_soft_focus" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                        <TextView android:textSize="8.799988sp" android:textColor="@color/white" android:layout_gravity="end|bottom|center" android:id="@id/cv_lens_hint_90mm" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@color/newbie_cv_lens_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/newbie_cv_lens_title" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="@dimen/id_card_mode_use_hint_textview_ii_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/id_card_mode_use_hint_layout_margin_top_i" android:text="@string/cv_lens_title" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/newbie_cv_lens_context" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="@dimen/id_card_mode_use_hint_textview_ii_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/id_card_mode_use_hint_layout_margin_top_ii" android:layout_marginBottom="@dimen/id_card_mode_use_hint_textview_margin_left" android:text="@string/cv_lens_msg" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <ImageButton android:id="@id/btn_cancel" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/id_card_mode_dialog_cancel_margin_top" android:src="@drawable/ic_vector_dialog_cancel" android:contentDescription="@string/new_bie_dialog_cancel" />
+</LinearLayout>

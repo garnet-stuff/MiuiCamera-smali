@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera2.compat.theme.custom.cv.ui.TextViewCv android:textSize="@dimen/mode_select_item_text_size" android:textColor="@color/withe_cv" android:gravity="center|top" android:id="@id/text_item_title" android:paddingLeft="@dimen/menu_select_text_padding" android:paddingRight="@dimen/menu_select_text_padding" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/menu_select_item_margin_top" android:includeFontPadding="false" android:fallbackLineSpacing="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,19 @@
+{
+  "version": "20220512-dev-1",
+  "data": [
+    {
+      "id": "vp.huaijiu",
+      "uri": "assets://vp/huaijiu.zip",
+      "i18n": [
+        {
+          "lang": "default",
+          "name": "Nostalgia"
+        },
+        {
+          "lang": "cn",
+          "name": "怀旧"
+        }
+      ]
+    }
+  ]
+}

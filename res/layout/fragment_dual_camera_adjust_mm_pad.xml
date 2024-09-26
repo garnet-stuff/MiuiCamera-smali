@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/dual_layout_parent" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/dual_camera_button_layout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.android.camera.ui.zoom.ZoomRatioToggleView android:layout_gravity="center" android:id="@id/zoom_ratio_toggle_button" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clipChildren="false" android:layout_width="@dimen/zoom_indicator_layout_height" android:layout_height="wrap_content" />
+            <com.android.camera2.compat.theme.custom.mm.zoom.HorizontalScaleZoomView android:layout_gravity="center" android:id="@id/dual_camera_zoom" android:visibility="gone" android:layout_width="@dimen/scale_zoom_view_bg_height" android:layout_height="@dimen/vertical_scale_zoom_view_width" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/dual_camera_zoom_tip_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/slide_tip_height">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/dual_camera_zoom_tip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/slide_tip_textsize" android:textStyle="normal" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/dual_camera_zoom_tip_text" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <ViewStub android:layout_gravity="center" android:id="@id/audio_zoom_indicator_layout" android:layout="@layout/audio_zoom_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+    <include android:layout_gravity="center|top" android:id="@id/popup_tip_privacy_watermark_edit" android:visibility="invisible" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/popup_tip_privacy_watermark_edit" />
+</FrameLayout>

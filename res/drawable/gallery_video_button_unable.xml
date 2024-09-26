@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/gallery_video_button_height" android:width="@dimen/gallery_video_button_width" android:viewportWidth="90.0" android:viewportHeight="90.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffffff" android:pathData="M40,45m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0" />
+    <path android:fillColor="#ffffffff" android:pathData="M49.477,59.991C55.28,57.72 59,51.865 59,45C59,38.135 55.28,32.28 49.477,30.009C49.651,30.003 49.825,30 50,30C58.284,30 65,36.716 65,45C65,53.284 58.284,60 50,60C49.825,60 49.651,59.997 49.477,59.991Z" android:strokeAlpha="0.6" android:fillAlpha="0.6" android:fillType="evenOdd" />
+</vector>

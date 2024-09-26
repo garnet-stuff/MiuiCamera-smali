@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package com.xiaomi.idm.api.proto;
+
+option java_package = "com.xiaomi.idm.api.proto";
+option java_outer_classname = "PropertyProto";
+
+message GetProperties {
+  repeated int32 propertyId = 1;
+}
+
+message GetPropertiesResponse {
+  repeated PropertyNode propertyNode = 1;
+}
+
+message SetProperties {
+  repeated PropertyNode propertyNode = 1;
+}
+
+message SetPropertiesResponse {
+  repeated PropertyNode statusNode = 1;
+}
+
+message PropertyNode {
+  int32 propertyId = 1;
+  bytes value = 2;
+  int32 status = 3;
+}

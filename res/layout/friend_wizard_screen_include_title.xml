@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/miuix_appcompat_dialog_title_text_size" android:textStyle="bold" android:textColor="@color/day_night_text_color" android:id="@id/tv_friend_mode_wizard_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/function_friend_mode" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/iv_wizard_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/friend_mode_wizard_tips" android:layout_alignParentEnd="true" />
+</RelativeLayout>

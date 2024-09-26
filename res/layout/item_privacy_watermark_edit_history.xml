@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/day_night_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/privacy_watermark_edit_text_horizontal_padding" android:paddingVertical="@dimen/privacy_watermark_edit_text_vertical_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/privacy_watermark_edit_history_item_text_size" android:textStyle="bold" android:id="@id/history_item" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

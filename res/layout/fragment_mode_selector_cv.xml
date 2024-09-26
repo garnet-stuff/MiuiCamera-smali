@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.DragLayout android:id="@id/drag_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/drag_layout_children" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/popup_more_mode_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/mode_select_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:layout_gravity="center" android:id="@id/bottom_external_mode_stub" android:layout="@layout/bottom_external_mode_layout_cv" android:inflatedId="@id/bottom_external_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.android.camera.ui.EdgeHorizonScrollView android:layout_gravity="center_horizontal" android:id="@id/mode_select_scrollview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="@dimen/cv_mode_select_height" app:edge="left|right">
+                <com.android.camera.ui.ModeSelectView android:id="@id/mode_select_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/selected_item_dot" android:layout_width="@dimen/select_item_dot_size" android:layout_height="@dimen/select_item_dot_size" />
+            </com.android.camera.ui.EdgeHorizonScrollView>
+        </FrameLayout>
+    </FrameLayout>
+</com.android.camera.ui.DragLayout>

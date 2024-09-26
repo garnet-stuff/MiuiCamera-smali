@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/v9_save_processing" android:focusable="false" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/vv_progress_save_width" android:layout_height="@dimen/vv_progress_save_width" android:src="@drawable/ic_vv_save_progress" android:scaleType="centerCrop" android:contentDescription="@string/accessibility_shutter_saving_button" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/v9_post_processing" android:visibility="gone" android:layout_width="@dimen/bottom_snap_progress_width" android:layout_height="@dimen/bottom_snap_progress_width" android:indeterminateDuration="@integer/post_process_duration" style="?android:progressBarStyleLarge" />
+</FrameLayout>

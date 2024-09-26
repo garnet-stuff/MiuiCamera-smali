@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="32.72dip" android:topRightRadius="32.72dip" android:bottomLeftRadius="32.72dip" android:bottomRightRadius="32.72dip" />
+    <solid android:color="@color/mimoji_edit_manual_bg" />
+    <stroke android:width="1.4499817dip" android:color="#ff333333" />
+</shape>

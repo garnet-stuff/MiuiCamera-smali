@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/mimoji_item_selected_indicator_width" android:layout_height="@dimen/mimoji_item_selected_indicator_width" app:cardBackgroundColor="@color/fullscreen_background_cv" app:cardCornerRadius="@dimen/filter_selected_indicator_outer_radius" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/makeup_item_selected_indicator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/effect_filter_item_selector_cv" android:contentDescription="@null" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/makeup_item" android:background="@drawable/makeup_item_bg_cv" android:focusable="false" android:layout_width="@dimen/beautycamera_makeup_item_width_cv" android:layout_height="@dimen/beautycamera_makeup_item_width_cv">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/container_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.android.camera.ui.ColorImageView android:id="@id/makeup_item_icon" android:layout_width="@dimen/beautycamera_makeup_icon_height_cv" android:layout_height="@dimen/beautycamera_makeup_icon_height_cv" android:scaleType="center" />
+            <com.android.camera.ui.ScrollTextview android:textSize="@dimen/filter_item_text_size_cv" android:textStyle="normal" android:textColor="@color/beautycamera_beauty_advanced_item_text_normal_cv" android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@id/makeup_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/beautycamera_makeup_radiogroup_item_drawable_padding_cv" android:singleLine="true" android:includeFontPadding="false" android:marqueeRepeatLimit="marquee_forever" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

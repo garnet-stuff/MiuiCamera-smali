@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera2.compat.theme.custom.mm.top.TopBarRecyclerView android:id="@id/start_topconfig_rv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/description_top_bar_start_recycleview" />
+    <com.android.camera2.compat.theme.custom.mm.top.MenuIndicatorView android:id="@id/menu_indicator" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_anime_arrow_view" android:layout_centerHorizontal="true" />
+    <View android:id="@id/main_top_bar_center" android:focusable="false" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_centerHorizontal="true" />
+    <com.android.camera2.compat.theme.custom.mm.top.TopBarRecyclerView android:id="@id/end_topconfig_rv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/description_top_bar_end_recycleview" />
+</merge>

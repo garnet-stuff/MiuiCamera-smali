@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_vector_id_card_mode_cv_cmp1" />
+    <item android:drawable="@drawable/ic_vector_id_card_mode_cv_cmp2" />
+</layer-list>

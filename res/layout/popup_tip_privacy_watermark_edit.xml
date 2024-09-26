@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="bottom|center" android:orientation="horizontal" android:background="@drawable/btn_bottom_capsule_tip_bg" android:paddingTop="@dimen/btn_bottom_capsule_tip_bottom_top_padding" android:paddingBottom="@dimen/btn_bottom_capsule_tip_bottom_top_padding" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/btn_bottom_capsule_tip_left_padding" android:paddingEnd="@dimen/btn_bottom_capsule_tip_padding_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/near_range_tip_text_size" android:textColor="@color/white" android:id="@id/popup_tips_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/popup_tips_privacy_watermark_edit" />
+    <ImageView android:id="@id/popup_tips_enter_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_enter_popup_tip" android:contentDescription="@string/dialog_privacy_watermark_button_input" />
+</LinearLayout>

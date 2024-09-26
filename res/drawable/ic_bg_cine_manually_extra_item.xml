@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_activated="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/monitor_switch_track_checked" />
+            <corners android:radius="@dimen/bg_cine_manully_item_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle" android:useLevel="false">
+            <corners android:radius="@dimen/bg_cine_manully_item_radius" />
+            <stroke android:width="@dimen/bg_cine_manully_item_stroke" android:color="@color/bg_cine_manually_extra_item_color" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/beautycamera_makeup_icon_height_cv" android:width="@dimen/beautycamera_makeup_icon_height_cv" android:viewportWidth="70.0" android:viewportHeight="70.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffffff" android:pathData="M13.2111,27.6056C13.9482,27.9741 13.9482,29.0259 13.2111,29.3944L5.4472,33.2764C4.7823,33.6088 4,33.1253 4,32.382L4,24.618C4,23.8747 4.7823,23.3912 5.4472,23.7236L13.2111,27.6056Z" />
+    <path android:fillColor="#ffffffff" android:pathData="M56.7889,27.6056C56.0518,27.9741 56.0518,29.0259 56.7889,29.3944L64.5528,33.2764C65.2177,33.6088 66,33.1253 66,32.382L66,24.618C66,23.8747 65.2177,23.3912 64.5528,23.7236L56.7889,27.6056Z" />
+    <path android:fillColor="#00000000" android:pathData="M51.7319,12C46.123,29.5 50.5491,38.5 52.6667,44.5C54.6334,50.0725 55,55.5 55,58" android:strokeColor="#ffffffff" android:strokeWidth="4.0" />
+    <path android:fillColor="#00000000" android:pathData="M18.268,12C23.8769,29.5 19.4508,38.5 17.3332,44.5C15.3665,50.0725 15,55.5 15,58" android:strokeColor="#ffffffff" android:strokeWidth="4.0" />
+    <path android:fillColor="#00000000" android:pathData="M18.58,43C18.58,43 25.2979,45 34.6791,45C44.0603,45 50.58,43 50.58,43" android:strokeColor="#ffffffff" android:strokeWidth="4.0" />
+</vector>

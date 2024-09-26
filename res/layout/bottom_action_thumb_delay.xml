@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mimoji_create_back" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_vector_close_mimoji" android:scaleType="center" android:contentDescription="@string/accessibility_live_edit_exit_button" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/v9_recording_progress" android:background="@drawable/bg_thumbnail_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:indeterminateDrawable="@drawable/waiting_progress" style="?android:progressBarStyleLarge" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/v9_recording_pause" android:background="@drawable/bg_thumbnail_background_full" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:contentDescription="@string/accessibility_shutter_pause_button" />
+</FrameLayout>

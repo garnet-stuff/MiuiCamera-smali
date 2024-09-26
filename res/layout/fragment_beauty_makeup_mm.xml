@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/header_recyclerView_mm" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <miuix.springback.view.SpringBackLayout android:layout_gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="wrap_content" app:scrollOrientation="horizontal" app:scrollableView="@id/makeup_item_list_mm">
+        <com.android.camera2.compat.theme.custom.mm.beauty.MakeupSelectViewMM android:layout_gravity="center_vertical" android:id="@id/makeup_item_list_mm" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/second_panel_height_mm" />
+    </miuix.springback.view.SpringBackLayout>
+    <miuix.recyclerview.widget.RecyclerView android:id="@id/makeup_extra_item_list_mm" android:focusable="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

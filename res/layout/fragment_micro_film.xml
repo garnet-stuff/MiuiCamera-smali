@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/vlog_pro_feature_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/vlog_pro_updating" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/vv_list_item_image_height">
+        <ProgressBar android:id="@id/vlog_pro_updating_progress" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginBottom="@dimen/vv_list_item_margin" android:indeterminateDrawable="@drawable/post_process_progress_vector" android:indeterminateDuration="@integer/post_process_duration" style="?android:progressBarStyleLarge" />
+        <TextView android:textSize="@dimen/live_speed_item_textSize" android:textColor="@android:color/white" android:id="@id/vlog_pro_updating_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/vv_list_item_margin" android:text="@string/live_sticker_updating" android:fontFamily="mipro-regular" android:layout_marginStart="11.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/vlog_pro_list_layout" android:layout_width="fill_parent" android:layout_height="@dimen/vv_list_height">
+        <com.android.camera.ui.EdgeGradientView android:layout_gravity="center_horizontal" android:id="@id/vlog_spring_layout" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" app:edge="top|bottom">
+            <miuix.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:id="@id/vlog_pro_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/vv_list_item_margin" />
+        </com.android.camera.ui.EdgeGradientView>
+    </FrameLayout>
+</FrameLayout>
