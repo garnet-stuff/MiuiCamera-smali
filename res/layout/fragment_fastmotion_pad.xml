@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center|left" android:layout_width="wrap_content" android:layout_height="@dimen/pad_scalezoom_view_height" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fastmotion_tip_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pad_fastmotion_tips_marginleft" android:layout_toRightOf="@id/fast_motion_viewPager" android:layout_centerVertical="true" layout="@layout/fastmotion_pro_silde_tip_layout" />
+    <com.android.camera.ui.NoScrollViewPager android:id="@id/fast_motion_viewPager" android:focusable="false" android:layout_width="@dimen/pad_scalezoom_view_width" android:layout_height="fill_parent" android:layout_centerVertical="true" />
+</RelativeLayout>

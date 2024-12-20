@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="flash_halo_hole_full_height">560.8125dip</dimen>
+    <dimen name="more_mode_settings_title_size">12.288483sp</dimen>
+</resources>

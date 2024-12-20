@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/beautycamera_makeup_item_width_cv" android:width="@dimen/softlight_list_item_width_mm" android:viewportWidth="258.0" android:viewportHeight="172.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_softlighting_mode_bg_mm__0" android:pathData="M0,12C0,5.37 5.37,0 12,0H246C252.63,0 258,5.37 258,12V160C258,166.63 252.63,172 246,172H12C5.37,172 0,166.63 0,160V12Z" />
+</vector>

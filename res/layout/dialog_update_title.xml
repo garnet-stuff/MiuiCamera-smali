@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/update_icon_iv" android:layout_width="@dimen/update_dialog_icon_size" android:layout_height="@dimen/update_dialog_icon_size" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/update_dialog_title_font_size" android:id="@id/update_title_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/update_title" android:fontFamily="mipro-medium" android:layout_marginStart="@dimen/update_dialog_title_start_margin" android:layout_marginEnd="@dimen/update_dialog_title_end_margin" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/update_dialog_subtitle_font_size" android:textColor="@color/black_40_transparent_with_dark_mode" android:id="@id/update_size_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/update_dialog_icon_end_margin" app:layout_constraintBottom_toBottomOf="@id/update_icon_iv" app:layout_constraintStart_toEndOf="@id/update_icon_iv" app:layout_constraintTop_toBottomOf="@id/update_title_tv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

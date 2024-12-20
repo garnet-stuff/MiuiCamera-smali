@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:layout_width="@dimen/style_workspace_item_layout_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/style_item_data_layout" android:background="@drawable/makeup_item_bg" android:layout_width="fill_parent" android:layout_height="@dimen/style_workspace_item_height">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/style_workspace_item_name_height">
+                <com.android.camera.ui.ScrollTextview android:textSize="@dimen/vv_list_item_text_size" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/style_item_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" android:marqueeRepeatLimit="marquee_forever" android:fontFamily="mipro-medium" android:layout_marginStart="8.0dip" android:layout_marginEnd="5.0dip" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/style_item_name_space" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_style_menu" android:contentDescription="@null" android:layout_marginStart="3.0dip" android:layout_marginEnd="8.0dip" />
+            </LinearLayout>
+            <View android:background="@color/white_alpha_10" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/style_workspace_item_desc_height">
+                <FrameLayout android:layout_gravity="center" android:id="@id/style_item_tone_layout" android:layout_width="@dimen/style_workspace_item_width" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_manual_picturestyle_tone_mini" />
+                    <TextView android:textSize="@dimen/style_workspace_item_text_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/style_item_tone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:text="-20" android:fontFamily="mipro-regular" />
+                </FrameLayout>
+                <View android:background="@color/white_alpha_10" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                <FrameLayout android:layout_gravity="center" android:id="@id/style_item_color_layout" android:layout_width="@dimen/style_workspace_item_width" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_manual_picturestyle_color_mini" />
+                    <TextView android:textSize="@dimen/style_workspace_item_text_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/style_item_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:text="-20" android:fontFamily="mipro-regular" />
+                </FrameLayout>
+                <View android:background="@color/white_alpha_10" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                <FrameLayout android:layout_gravity="center" android:id="@id/style_item_texture_layout" android:layout_width="@dimen/style_workspace_item_width" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_manual_picturestyle_texture_mini" />
+                    <TextView android:textSize="@dimen/style_workspace_item_text_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/style_item_texture" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:text="-20" android:fontFamily="mipro-regular" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/style_item_indicator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/style_item_selected_indicator" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/effect_filter_item_selector_cv" android:layout_centerInParent="true" android:contentDescription="@null" android:rotation="0.0" />
+            <FrameLayout android:layout_gravity="right" android:id="@id/style_item_selected_menu" android:layout_width="wrap_content" android:layout_height="@dimen/style_workspace_item_name_height">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/ic_style_menu" android:contentDescription="@null" />
+            </FrameLayout>
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

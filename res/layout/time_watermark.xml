@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" android:paddingHorizontal="@dimen/time_watermark_horizontal_padding" android:paddingVertical="@dimen/time_watermark_vertical_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/time_watermark_inner" android:background="@drawable/bg_time_aiwatermark" android:layout_width="@dimen/time_watermark_inner_width" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/time_watermark_date_text_size" android:textStyle="normal" android:textColor="#ffffffff" android:gravity="center" android:id="@id/date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/time_watermark_date_margin_top" android:importantForAccessibility="no" android:letterSpacing="0.02" />
+        <TextView android:textSize="@dimen/time_watermark_month_text_size" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/month" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/time_watermark_month_margin_top" android:importantForAccessibility="no" />
+        <TextView android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/hour" android:background="#ffffffff" android:layout_width="@dimen/time_watermark_hour_width" android:layout_height="@dimen/time_watermark_hour_height" android:layout_marginTop="@dimen/time_watermark_hour_margin_top" android:layout_marginBottom="@dimen/time_watermark_hour_margin_bottom" android:importantForAccessibility="no" android:letterSpacing="0.0" />
+    </LinearLayout>
+</LinearLayout>

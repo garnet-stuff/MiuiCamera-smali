@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fnumber_slider_tip_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/slide_tip_height">
+        <TextView android:textSize="@dimen/slide_tip_textsize" android:textStyle="normal" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/fnumber_slider_tip" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </FrameLayout>
+    <com.android.camera2.compat.theme.custom.mm.beauty.ZoomViewMM android:id="@id/fnumber_slider" android:paddingLeft="@dimen/slide_leftpadding_mm" android:paddingRight="@dimen/slide_leftpadding_mm" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/slide_height_mm" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/plane_entrance_stroke_size" android:width="@dimen/plane_entrance_stroke_size" android:viewportWidth="90.0" android:viewportHeight="90.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#00000000" android:pathData="M36,30L54,30A6,6 0,0 1,60 36L60,54A6,6 0,0 1,54 60L36,60A6,6 0,0 1,30 54L30,36A6,6 0,0 1,36 30z" android:strokeColor="#ffffffff" android:strokeWidth="4.0" />
+    <path android:fillColor="#ffffffff" android:pathData="M37,36L53,36A1,1 0,0 1,54 37L54,53A1,1 0,0 1,53 54L37,54A1,1 0,0 1,36 53L36,37A1,1 0,0 1,37 36z" android:fillAlpha="0.4" />
+</vector>

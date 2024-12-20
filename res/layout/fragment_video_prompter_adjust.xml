@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.fragment.videoprompter.VideoPrompterAdjustLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/black" android:paddingBottom="@dimen/dimen_gif_top_navigation_height" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/video_prompter_adjust_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/rotateLayout" android:layout_width="fill_parent" android:layout_height="@dimen/video_prompter_rotate_layout_height" android:layout_marginTop="@dimen/video_prompter_rotate_layout_margin_top" android:layout_marginStart="@dimen/video_prompter_rotate_layout_margin_start" android:layout_marginEnd="@dimen/video_prompter_rotate_layout_margin_start">
+        <LinearLayout android:orientation="vertical" android:id="@id/adjust_text_size_container" android:layout_width="fill_parent" android:layout_height="@dimen/video_prompter_adjust_size_container_height">
+            <TextView android:textSize="@dimen/video_prompter_adjust_size_tip_size" android:textColor="@color/white" android:id="@id/adjust_text_size_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/video_prompter_adjust_size" />
+            <com.android.camera.timerburst.TimerBurstSeekBar android:id="@id/adjust_text_size_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/video_prompter_adjust_size_bar_margin_top" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/adjust_text_speed_container" android:layout_width="fill_parent" android:layout_height="@dimen/video_prompter_adjust_speed_container_height" android:layout_marginTop="@dimen/video_prompter_adjust_speed_container_margin_top">
+            <TextView android:textSize="@dimen/video_prompter_adjust_size_tip_size" android:textColor="@color/white" android:id="@id/adjust_text_speed_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/video_prompter_adjust_speed" />
+            <com.android.camera.timerburst.TimerBurstSeekBar android:id="@id/adjust_text_speed_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/video_prompter_adjust_speed_bar_margin_top" />
+        </LinearLayout>
+    </LinearLayout>
+</com.android.camera.fragment.videoprompter.VideoPrompterAdjustLayout>

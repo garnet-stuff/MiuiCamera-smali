@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/slide_tip_textsize" android:textStyle="normal" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/video_bokeh_slider_tip" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/zoom_slide_layout_height" android:layout_marginBottom="@dimen/zoom_slide_layout_height" android:singleLine="true" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/video_bokeh_horizontal_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/manually_extra_horizontal_height">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/video_bokeh_show_bokeh_button_layout" android:visibility="visible" android:layout_width="@dimen/manual_extra_recyclerview_height" android:layout_height="@dimen/manual_extra_recyclerview_height" android:layout_marginStart="@dimen/manual_extra_recyclerview_margin_left" />
+        <ViewStub android:id="@id/video_bokeh_slider_stub" android:visibility="visible" android:layout="@layout/video_f_slider" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

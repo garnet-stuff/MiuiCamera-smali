@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.ReferenceLineDrawer android:id="@id/v6_reference_grid" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.camera.ui.CenterMarkDrawer android:id="@id/v6_center_mark" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.camera.ui.GradienterDrawer android:id="@id/v6_reference_gradienter" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.camera.ui.SecurityLineDrawer android:id="@id/v6_security_line" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

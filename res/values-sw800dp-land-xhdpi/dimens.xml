@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ai_water_mark_fragment_left_margin">15.459991dip</dimen>
+    <dimen name="aiwatermark_location_2_left_margin">20.0dip</dimen>
+    <dimen name="aiwatermark_location_left_margin">100.0dip</dimen>
+    <dimen name="beauty_subeffect_layout_margin_left">15.556dip</dimen>
+    <dimen name="beautycamera_beauty_subeffect_seekbar_width">323.10938dip</dimen>
+    <dimen name="bottom_action_top_margin">58.899994dip</dimen>
+    <dimen name="bottom_action_top_margin_half">29.449982dip</dimen>
+    <dimen name="common_mode_select_view_red_dot_left_margin">28.0dip</dimen>
+    <dimen name="common_mode_select_vivw_ver_bottom_margin">70.0dip</dimen>
+    <dimen name="custom_tint_color_use_top_margin">28.439972dip</dimen>
+    <dimen name="custom_tint_preview_width_full">627.89844dip</dimen>
+    <dimen name="mode_select_margin_hor">68.0dip</dimen>
+    <dimen name="more_mode_settings_padding_hor">222.0dip</dimen>
+    <dimen name="motion_detection_rect_circle_enlarge_radius">7.4539795dip</dimen>
+    <dimen name="motion_detection_rect_circle_normal_radius">4.909973dip</dimen>
+    <dimen name="motion_detection_rect_line_width">1.8199768dip</dimen>
+    <dimen name="pad_aiwatermark_location_1_bottom_margin">60.0dip</dimen>
+    <dimen name="pad_aiwatermark_location_1_left_margin">20.0dip</dimen>
+    <dimen name="pad_aiwatermark_location_2_left_margin">40.0dip</dimen>
+    <dimen name="pad_aiwatermark_location_2_right_margin">80.0dip</dimen>
+    <dimen name="pad_beauty_layout_left_margin">115.66dip</dimen>
+    <dimen name="pad_beauty_root_layout_margin_bottom_land">182.32dip</dimen>
+    <dimen name="pad_beauty_root_layout_margin_left_land">20.199982dip</dimen>
+    <dimen name="pad_beauty_slide_top_margin_mm">111.04999dip</dimen>
+    <dimen name="pad_beauty_tip_layout_top_margin_mm">111.04999dip</dimen>
+    <dimen name="pad_beauty_tip_margin_left">116.16dip</dimen>
+    <dimen name="pad_fnumber_slider_margin_left">23.22998dip</dimen>
+    <dimen name="pad_menu_tab_bottom_margin">31.309998dip</dimen>
+    <dimen name="pad_menu_tab_right_margin">1354.0391dip</dimen>
+    <dimen name="pad_ver_aiwatermark_image_left_margin">0.0dip</dimen>
+    <dimen name="tint_AItip_font_select">8.889984sp</dimen>
+    <dimen name="beauty_list_padding_pad">16.639984dip</dimen>
+</resources>

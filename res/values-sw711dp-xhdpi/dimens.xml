@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cv_mode_list_hor_margin_popup">90.0dip</dimen>
+    <dimen name="mishot_snap_top_marin_landscape">126.582dip</dimen>
+    <dimen name="mishot_thumbnail_bottom_marin_landscape">143.64798dip</dimen>
+</resources>

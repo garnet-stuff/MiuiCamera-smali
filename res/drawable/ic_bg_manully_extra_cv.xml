@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_activated="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/main" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval" android:useLevel="false">
+            <stroke android:width="@dimen/ic_bg_manully_extra_normal_stroke" android:color="@color/zoom_button_ring_color" />
+        </shape>
+    </item>
+</selector>

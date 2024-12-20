@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/miuix_appcompat_dialog_message_text_size" android:textColor="@color/vv_dialog_message_color" android:id="@id/tv_friend_mode_wizard_scan_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/friend_mode_searching_tips" android:layout_marginStart="@dimen/friend_mode_wizard_content_text_margin_horizontal" android:layout_marginEnd="@dimen/friend_mode_wizard_content_text_margin_horizontal" android:fallbackLineSpacing="false" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/friend_mode_wizard_search_margin_top" android:layout_marginBottom="@dimen/friend_mode_wizard_search_margin_bottom" android:layout_below="@id/tv_friend_mode_wizard_scan_content" android:layout_marginStart="@dimen/friend_mode_wizard_content_text_margin_horizontal">
+        <miuix.androidbasewidget.widget.ProgressBar android:layout_gravity="center_vertical" android:id="@id/pb_friend_wizard_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/friend_mode_wizard_draw_padding" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_friend_wizard_search" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/friend_mode_wizard_tips_no_result" android:layout_marginEnd="@dimen/friend_mode_wizard_draw_padding" />
+        <TextView android:textSize="@dimen/miuix_appcompat_dialog_title_text_size" android:textStyle="bold" android:textColor="@color/vv_dialog_message_color" android:layout_gravity="center_vertical" android:id="@id/tv_friend_wizard_search_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/friend_mode_searching" />
+    </LinearLayout>
+</RelativeLayout>

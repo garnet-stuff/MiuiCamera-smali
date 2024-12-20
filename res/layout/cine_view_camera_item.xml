@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingBottom="@dimen/monitor_popup_rev_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_vector_cine_monitor" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/monitor_popup_monitor_control_text_size" android:textColor="#ccffffff" android:ellipsize="end" android:id="@id/item_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/monitor_popup_rev_item_text_margin" android:maxLines="1" android:layout_below="@id/item_iv" android:layout_centerHorizontal="true" />
+</RelativeLayout>

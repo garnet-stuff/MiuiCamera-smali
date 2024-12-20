@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/diraudio_parent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.ColorImageView android:layout_gravity="center" android:id="@id/diraudio_item_icon" android:background="@drawable/shape_dir_audio_item_bg" android:layout_width="@dimen/dir_audio_item_icon_width" android:layout_height="@dimen/dir_audio_item_icon_height" android:scaleType="center" />
+    <com.android.camera.ui.ScrollTextview android:textSize="@dimen/filter_item_text_size" android:textStyle="bold" android:textColor="@color/beautycamera_beauty_advanced_item_text_normal" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center" android:id="@id/diraudio_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dir_audio_item_text_top_margin" android:maxWidth="@dimen/dir_audio_item_icon_width" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/diraudio_container" android:marqueeRepeatLimit="marquee_forever" />
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="adjust_button_text_size">15.0sp</dimen>
+    <dimen name="aiwatermark_log_lat_title_value_gap">1.5999756dip</dimen>
+    <dimen name="beauty_mutex_toast_navbarhidden_yoffset">112.28598dip</dimen>
+    <dimen name="beauty_mutex_toast_yoffset">68.94699dip</dimen>
+    <dimen name="beauty_subeffect_icon_size">32.72998dip</dimen>
+    <dimen name="beauty_subeffect_item_margin">2.8569946dip</dimen>
+    <dimen name="beauty_subeffect_layout_margin_left">10.0dip</dimen>
+    <dimen name="beautycamera_beauty_subeffect_seekbar_margin_end">18.28598dip</dimen>
+    <dimen name="beautycamera_beauty_subeffect_seekbar_width">207.71399dip</dimen>
+    <dimen name="click_toast_text_margin_horizontal">12.856995dip</dimen>
+    <dimen name="click_toast_text_margin_vertical">10.28598dip</dimen>
+    <dimen name="clone_capture_hint_width_cv">339.25dip</dimen>
+    <dimen name="custom_tint_actionbar_height">67.22dip</dimen>
+    <dimen name="custom_tint_color_table_bottom_margin">41.5dip</dimen>
+    <dimen name="custom_tint_color_table_bottom_margin_full">55.059998dip</dimen>
+    <dimen name="custom_tint_preview_bottom_height_full">206.28dip</dimen>
+    <dimen name="custom_tint_preview_bottom_margin">27.22998dip</dimen>
+    <dimen name="custom_tint_preview_top_margin">13.669983dip</dimen>
+    <dimen name="cv_mode_item_text_min_width">28.299988dip</dimen>
+    <dimen name="extend_watermark_special_background_move_right">45.679993dip</dimen>
+    <dimen name="flash_halo_hole_16_9_top_margin">12.189972dip</dimen>
+    <dimen name="focus_stroke_width">1.6599731dip</dimen>
+    <dimen name="histogram_width">60.179993dip</dimen>
+    <dimen name="plane_entrance_stroke_radius">17.149994dip</dimen>
+    <dimen name="reference_line_paint_width">2.5px</dimen>
+    <dimen name="reference_line_width_end">3.5px</dimen>
+    <dimen name="tint_text_margin_top_select">416.6953dip</dimen>
+    <dimen name="tint_text_select_font">10.799988dip</dimen>
+    <dimen name="track_auto_round_rect_radius">6.8569946dip</dimen>
+    <dimen name="track_manual_round_rect_radius">1.5229797dip</dimen>
+    <dimen name="video_bokeh_margin_bottom_cv">3.039978dip</dimen>
+    <dimen name="video_bokeh_margin_left_cv">31.159973dip</dimen>
+    <dimen name="video_bokeh_margin_right_cv">34.19998dip</dimen>
+    <dimen name="video_prompter_edit_total_words_margin_start">25.139984dip</dimen>
+    <item type="dimen" name="vv_feature_layout_max_width_cv">326.67</item>
+    <dimen name="widget_radius">14.47998dip</dimen>
+    <dimen name="widget_root_padding">15.639984dip</dimen>
+    <dimen name="zoom_ratio_dot_gap_cv">3.8099976dip</dimen>
+    <dimen name="zoom_ratio_toggle_view_bg_radius">20.949982dip</dimen>
+    <dimen name="zoom_selected_view_stroke_width">1.519989dip</dimen>
+</resources>

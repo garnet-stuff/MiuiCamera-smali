@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/modes_root" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/modes_contain" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.camera.fragment.mode.more.EditDragLayout android:id="@id/edit_drag_layout_pop" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <miuix.springback.view.SpringBackLayout android:layout_gravity="center_horizontal" android:id="@id/mode_edit_list_container" android:clipToPadding="true" android:layout_width="wrap_content" android:layout_height="wrap_content" app:scrollableView="@id/mode_edit_list">
+                <com.android.camera.fragment.mode.more.DragMoreModeRecycleView android:layout_gravity="center|top" android:id="@id/mode_edit_list" android:clipToPadding="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:overScrollMode="never" />
+            </miuix.springback.view.SpringBackLayout>
+            <com.android.camera.fragment.mode.more.DragCommonModeRecycleView android:id="@id/common_mode_edit_list_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.android.camera.fragment.mode.more.EditDragLayout>
+        <com.android.camera2.compat.theme.custom.cv.more.DragLayoutBarCV android:layout_gravity="center_horizontal" android:id="@id/drag_bar" android:background="@drawable/bg_more_mode_popup_bar" android:layout_width="@dimen/cv_mode_select_popup_bar_width" android:layout_height="@dimen/cv_mode_select_popup_bar_height" android:layout_marginTop="@dimen/cv_mode_select_popup_bar_margin_top" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="top" android:id="@id/more_mode_edit_head_pop" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,56 @@
+
+syntax = "proto3";
+//import "IPCParam.proto";
+package com.xiaomi.mi_connect_service;
+option java_package = "com.xiaomi.mi_connect_service.proto";
+option java_outer_classname = "IDMSecurityManagerProto";
+message checkPkgSignatureParam{
+  int32 pid = 1;
+  int32 uid = 2;
+}
+message checkRegisterClientIdParam{
+  int32 pid = 1;
+  int32 uid = 2;
+  string clientId = 3;
+}
+message checkServiceRegistrableParam{
+  string clientId = 1;
+  string type =2;
+  int32 pid = 3;
+  int32 uid = 4;
+}
+message checkPermissionByBlockListParam{
+  int32 pid = 1;
+  int32 uid = 2;
+  string clientId = 3;
+  //Idm_Permission_StartDiscovery
+  //Idm_Permission_ConnectService
+  //Idm_Permission_RegisterService
+  string interfaceName = 4;
+  int32 commType = 5;
+  int32 discType = 6;
+  repeated string serviceTypes = 7;
+  bool isDiscTypeRequired = 8;
+}
+message checkServiceFindableParam{
+  int32 pid = 1;
+  int32 uid = 2;
+  string clientId = 3;
+  repeated string type = 4;
+}
+message checkPermissionByBlockListResult{
+  int32 commType = 1;
+  int32 discType = 2;
+  repeated string serviceTypes = 3;
+  bool isBlock = 4;
+}
+message filterAdvDiscTypeParam{
+  int32 discType = 1;
+  int32 pid = 2;
+  int32 uid = 3;
+}
+message filterCommParam{
+  int32 commType = 1;
+  int32 pid = 2;
+  int32 uid = 3;
+}

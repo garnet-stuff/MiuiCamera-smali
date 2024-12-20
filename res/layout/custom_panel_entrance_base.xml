@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom|center" android:id="@id/tip_base_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/manually_indicator_layout_height" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tip_image" android:background="@null" android:focusable="false" android:layout_width="@dimen/bottom_tip_icon_size" android:layout_height="@dimen/bottom_tip_icon_size" android:scaleType="center" android:layout_centerVertical="true" />
+    <TextView android:textSize="11.429993sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tip_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/beauty_lens_text_marginright" android:layout_toEndOf="@id/tip_image" android:fontFeatureSettings="tnum" />
+</RelativeLayout>

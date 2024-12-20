@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/rotate_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/aiwatermark_location_2_rl_padding" android:paddingVertical="@dimen/aiwatermark_location_2_rl_padding_vertical">
+        <TextView android:textSize="@dimen/aiwatermark_location_time_1_day_text_size" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/location_time_1_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="mipro-light" />
+        <View android:id="@id/divide_1" android:background="#7fffffff" android:layout_width="@dimen/aiwatermark_divide_1_width" android:layout_height="fill_parent" android:layout_marginStart="@dimen/aiwatermark_divide_1_margin_left" android:layout_marginVertical="@dimen/aiwatermark_divide_1_margin_top" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/location_time_1_time_lcation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/aiwatermark_location_1_layout_margin_start">
+            <TextView android:textSize="@dimen/aiwatermark_location_time_1_location_text_size" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/location_time_1_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/aiwatermark_location_1_text_max_width" android:maxLines="3" android:fontFamily="mipro-normal" />
+            <TextView android:textSize="@dimen/aiwatermark_location_time_1_time_text_size" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/location_time_1_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/aiwatermark_location_time_1_time_max_width" android:singleLine="true" android:fontFamily="mipro-normal" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

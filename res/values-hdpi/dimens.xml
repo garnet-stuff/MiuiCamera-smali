@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="presentation_delaynumber_size">37.0dip</dimen>
+    <dimen name="presentation_loading_width">22.669983dip</dimen>
+    <dimen name="presentation_red_icon_size">6.5999756dip</dimen>
+    <dimen name="presentation_slow_2s_width">33.0dip</dimen>
+    <dimen name="presentation_split_line_height">12.0dip</dimen>
+    <dimen name="presentation_split_line_padding">5.0dip</dimen>
+    <dimen name="presentation_split_line_width">1.6799927dip</dimen>
+    <dimen name="presentation_textview_size">14.799988dip</dimen>
+    <dimen name="screen_on_proximity_sensor_hint_height">388.0dip</dimen>
+</resources>

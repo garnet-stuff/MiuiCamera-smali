@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/miuix_appcompat_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextureView android:id="@id/ttv_steam_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/cover" android:background="@color/miuix_appcompat_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/iv_border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/shape_monitor_white_border" />
+    <miuix.androidbasewidget.widget.ProgressBar android:id="@id/loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:indeterminateTint="@color/miuix_appcompat_white" style="?android:progressBarStyleLarge" />
+    <com.android.camera.ui.VerticalLabelView android:textSize="@dimen/monitor_magic_device_tag_size_double" android:textColor="@color/miuix_appcompat_white" android:id="@id/tv_camera_sign" android:padding="@dimen/monitor_magic_device_tag_text_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.android.camera2.compat.theme.custom.mm.cinemaster.view.StrokeTextView android:textSize="@dimen/monitor_magic_device_param_text_size2" android:textColor="@color/monitor_magic_device_camera_param_text_color" android:id="@id/tv_camera_param" android:padding="@dimen/monitor_magic_device_tag_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textColor="@color/miuix_appcompat_white" android:id="@id/tv_player_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <TextView android:textColor="@color/miuix_appcompat_white" android:id="@id/tv_debug" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

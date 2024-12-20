@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/manually_item_layout" android:focusable="false" android:layout_width="@dimen/manually_proparm_exposure_mode_item_width" android:layout_height="@dimen/manually_proparm_exposure_mode_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/manually_item_exposure_mode_image" android:visibility="visible" android:layout_width="@dimen/manually_exposure_mode_width" android:layout_height="@dimen/manually_exposure_mode_height" android:layout_marginTop="@dimen/manually_exposure_mode_cv_top" android:src="@drawable/ic_exposure_mode_manual_auto" android:scaleType="centerInside" />
+</LinearLayout>

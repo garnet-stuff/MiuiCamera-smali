@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/cine_client_root" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera2.compat.theme.custom.mm.cinemaster.view.MagicView android:id="@id/cine_magic_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:gravity="center" android:id="@id/rl_monitor_modify_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_monitor_modify_layout" android:layout_width="@dimen/monitor_client_modify_layout_width" android:layout_height="@dimen/monitor_client_modify_layout_height" android:src="@drawable/ic_vector_monitor_layout_modify" android:contentDescription="@string/cine_image_modify_layout_content_description" />
+    </RelativeLayout>
+    <com.android.camera.ui.CameraSnapView android:id="@id/iv_snap_view" android:focusable="false" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/bottom_snap_width" android:layout_height="@dimen/bottom_snap_width" android:contentDescription="@string/accessibility_shutter_button" />
+    <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:id="@id/top_config_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.camera.ui.ColorImageView android:id="@id/iv_monitor_statue" android:layout_width="@dimen/top_bar_item_size_mm" android:layout_height="@dimen/top_bar_item_size_mm" android:src="@drawable/ic_vector_cine_popup_connect_view_mm" android:contentDescription="@string/connect_view_title" />
+        <com.android.camera.ui.ColorImageView android:id="@id/iv_close" android:layout_width="@dimen/top_bar_item_size_mm" android:layout_height="@dimen/top_bar_item_size_mm" android:src="@drawable/ic_vector_close_monitor" android:contentDescription="@string/mimoji_back" />
+    </LinearLayout>
+    <com.android.camera2.compat.theme.custom.mm.cinemaster.view.MagicIndicator android:id="@id/cine_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/monitor_client_top_text_size" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/cinemaster_no_devices" />
+</RelativeLayout>

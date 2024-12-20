@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/slide_switch_button_item_image_size_cv" android:width="@dimen/slide_switch_button_item_image_size_cv" android:autoMirrored="true" android:viewportWidth="44.0" android:viewportHeight="44.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ff000000" android:pathData="M38,33C38.5523,33 39,33.4477 39,34V36C39,36.5523 38.5523,37 38,37H6C5.4477,37 5,36.5523 5,36V34C5,33.4477 5.4477,33 6,33H38ZM38,7C38.5523,7 39,7.4477 39,8V10C39,10.5523 38.5523,11 38,11H6C5.4477,11 5,10.5523 5,10V8C5,7.4477 5.4477,7 6,7H38Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ff000000" android:pathData="M13,24C13.5523,24 14,23.5523 14,23V21C14,20.4477 13.5523,20 13,20H6C5.4477,20 5,20.4477 5,21V23C5,23.5523 5.4477,24 6,24H13Z" />
+    <path android:fillColor="#ff000000" android:pathData="M25,24C25.5523,24 26,23.5523 26,23V21C26,20.4477 25.5523,20 25,20H19C18.4477,20 18,20.4477 18,21V23C18,23.5523 18.4477,24 19,24H25Z" />
+    <path android:fillColor="#ff000000" android:pathData="M38,24C38.5523,24 39,23.5523 39,23V21C39,20.4477 38.5523,20 38,20H31C30.4477,20 30,20.4477 30,21V23C30,23.5523 30.4477,24 31,24H38Z" />
+</vector>

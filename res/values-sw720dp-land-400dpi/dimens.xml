@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="aiwatermark_fragment_buttom_margin">190.0dip</dimen>
+    <dimen name="aiwatermark_fragment_right_margin">150.0dip</dimen>
+    <dimen name="beauty_slide_land_bootom_margin_mm">10.0dip</dimen>
+    <dimen name="beauty_tip_layout_bottom_margin_land_mm">10.0dip</dimen>
+    <dimen name="bottom_action_top_margin">0.0dip</dimen>
+    <dimen name="common_mode_select_vivw_ver_bottom_margin">6.0dip</dimen>
+    <dimen name="mishot_topalert_main_margintop">4.3599854dip</dimen>
+    <dimen name="mode_item_margin_new">80.0dip</dimen>
+    <dimen name="pad_bottom_popup_tips_margin_left_land">50.50998dip</dimen>
+</resources>

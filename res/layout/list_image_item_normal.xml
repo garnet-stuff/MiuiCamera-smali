@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.litegallery.AutoGalleryLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.litegallery.GalleryView android:id="@id/imageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/logo" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include android:id="@id/share_and_delete" android:visibility="invisible" layout="@layout/gallery_item_share_and_delete" />
+</com.android.camera.litegallery.AutoGalleryLayout>

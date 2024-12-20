@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/plane_entrance_bg_padding" android:insetRight="@dimen/plane_entrance_bg_padding" android:insetTop="@dimen/plane_entrance_bg_padding" android:insetBottom="@dimen/plane_entrance_bg_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <layer-list
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <item>
+            <shape android:shape="rectangle">
+                <corners android:topLeftRadius="@dimen/beauty_lens_bg_radius" android:topRightRadius="@dimen/beauty_lens_bg_radius" android:bottomLeftRadius="@dimen/beauty_lens_bg_radius" android:bottomRightRadius="@dimen/beauty_lens_bg_radius" />
+                <solid android:color="@color/main" />
+            </shape>
+        </item>
+    </layer-list>
+</inset>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="aiwatermark_fragment_buttom_margin">40.0dip</dimen>
+    <dimen name="aiwatermark_fragment_right_margin">40.0dip</dimen>
+    <dimen name="beauty_slide_bootom_margin_mm">15.0dip</dimen>
+    <dimen name="beauty_tip_layout_bottom_margin_mm">15.0dip</dimen>
+    <dimen name="bottom_action_top_margin_land_mm">228.5dip</dimen>
+    <dimen name="manually_indicator_background_margin_left_right">17.169983dip</dimen>
+    <dimen name="manually_indicator_background_margin_top_bottom">17.169983dip</dimen>
+    <dimen name="mode_item_margin_new">102.0dip</dimen>
+    <dimen name="ocr_content_bound_horizontal_margin">149.573dip</dimen>
+    <dimen name="pad_filter_list_blur_effect_height">30.299988dip</dimen>
+    <dimen name="pad_live_speed_item_width">55.559998dip</dimen>
+    <dimen name="pad_second_panel_middle_line_margin_left_land">68.69dip</dimen>
+    <dimen name="pad_second_panel_middle_line_margin_left_portrait">98.98999dip</dimen>
+    <dimen name="plane_entrance_margin_hor">23.919983dip</dimen>
+</resources>

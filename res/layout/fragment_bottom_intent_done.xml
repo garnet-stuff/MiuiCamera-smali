@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/result_image_view" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/accessibility_preview_button" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/v6_video_btn_play" android:background="@drawable/bg_thumbnail_background_full" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_vector_play" android:scaleType="centerInside" android:contentDescription="@string/accessibility_live_music_play_button" style="@style/ReviewControlIcon" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/intent_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_snap_width">
+        <FrameLayout android:layout_gravity="start|center" android:id="@id/intent_done_retry" android:layout_width="@dimen/bottom_snap_width" android:layout_height="@dimen/bottom_snap_width" android:contentDescription="@string/mimoji_recapture" android:layout_marginStart="@dimen/bottom_picker_margin">
+            <ImageView android:layout_gravity="start|center" android:id="@id/intent_done_retry_bg" android:background="@drawable/bg_thumbnail_background_full" android:layout_width="@dimen/bottom_picker_width" android:layout_height="@dimen/bottom_picker_width" android:scaleType="center" />
+            <ImageView android:layout_gravity="start|center" android:id="@id/intent_done_retry_ic" android:layout_width="@dimen/bottom_picker_width" android:layout_height="@dimen/bottom_picker_width" android:src="@drawable/ic_vector_close_mimoji" android:scaleType="center" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="end|center" android:id="@id/done_button" android:layout_width="@dimen/bottom_snap_width" android:layout_height="@dimen/bottom_snap_width" android:contentDescription="@string/accessibility_intent_done_apply" android:layout_marginEnd="@dimen/bottom_picker_margin">
+            <ImageView android:layout_gravity="end|center" android:id="@id/done_button_bg" android:background="@drawable/bg_thumbnail_background_full" android:layout_width="@dimen/bottom_picker_width" android:layout_height="@dimen/bottom_picker_width" android:scaleType="center" />
+            <ImageView android:layout_gravity="end|center" android:id="@id/done_button_ic" android:layout_width="@dimen/bottom_picker_width" android:layout_height="@dimen/bottom_picker_width" android:src="@drawable/ic_live_record_save" android:scaleType="center" android:alpha="50.0" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">1 કલાક પહેલાં</item>
+        <item quantity="one">1 કલાક પહેલાં</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">%d-કલાક પહેલાં</item>
+        <item quantity="one">%d-કલાક પહેલાં</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">અડધા કલાક પહેલાં</item>
+        <item quantity="one">અડધા કલાક પહેલાં</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">%d કલાકમાં</item>
+        <item quantity="one">%d કલાકમાં</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">અડધા કલાકમાં</item>
+        <item quantity="one">અડધા કલાકમાં</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">તરત જ</item>
+        <item quantity="one">તરત જ</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d મિનિટ્સમાં</item>
+        <item quantity="one">%d મિનિટમાં</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">હમણાં જ</item>
+        <item quantity="one">હમણાં જ</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d મિનિટ્સ પહેલાં</item>
+        <item quantity="one">%d મિનિટ પહેલાં</item>
+    </plurals>
+    <plurals name="accessibility_auto_night_tip">
+        <item quantity="other">%d-સેકંડ ટાઇમર નાઇટ મોડ માટે</item>
+        <item quantity="one">%d-સેકંડ ટાઇમર નાઇટ મોડ માટે</item>
+    </plurals>
+    <plurals name="accessibility_focus_face_detect">
+        <item quantity="other">ફોકસ કર્યું. %d ચહેરા મળ્યાં</item>
+        <item quantity="one">ફોકસ કર્યું. %d ચહેરો મળ્યો</item>
+    </plurals>
+    <plurals name="accessibility_timer_burst_count">
+        <item quantity="other">એક બર્સ્ટ શૉટમાં %d ફોટા</item>
+        <item quantity="one">એક બર્સ્ટ શૉટમાં %d ફોટો</item>
+    </plurals>
+    <plurals name="accessibility_timer_burst_interval">
+        <item quantity="other">અંતરાલ: %d સેકન્ડ</item>
+        <item quantity="one">અંતરાલ: %d સેકન્ડ</item>
+    </plurals>
+    <plurals name="accessibility_vv_duartion">
+        <item quantity="other">અવધિ: %d સેકન્ડ</item>
+        <item quantity="one">અવધિ: %d સેકન્ડ</item>
+    </plurals>
+    <plurals name="cinemaster_toast_camera_overflow">
+        <item quantity="other">તમે સમાન નેટવર્ક સાથે %d કૅમેરા સુધી કનેક્ટ કરી શકો છો</item>
+        <item quantity="one">તમે સમાન નેટવર્ક સાથે %d કૅમેરો સુધી કનેક્ટ કરી શકો છો</item>
+    </plurals>
+    <plurals name="cinemaster_toast_monitor_overflow">
+        <item quantity="other">તમે સમાન નેટવર્ક સાથે %d મોનિટર્સ સુધી કનેક્ટ કરી શકો છો</item>
+        <item quantity="one">તમે સમાન નેટવર્ક સાથે %d મોનિટર સુધી કનેક્ટ કરી શકો છો</item>
+    </plurals>
+    <plurals name="clone_guide_tip2">
+        <item quantity="other">તમે એક વખતમાં વધુમાં વધુ %d જેટલા ક્લોન બનાવી શકો છો.</item>
+        <item quantity="one">તમે એક વખતમાં વધુમાં વધુ %d જેટલા ક્લોન બનાવી શકો છો.</item>
+    </plurals>
+    <plurals name="exit_camera_hint">
+        <item quantity="other">&lt;Data>કેમેરા સાથે જોડાઈ શકતા નથી.&lt;br>. આ એપ&lt;font color=#FFCE16>&lt;b>%1$d સેકંડ્સમાં&lt;/b>&lt;/font> બંધ થઈ જશે. આ પછી, એક કે બે મિનિટ રાહ જુઓ અને ફરી પ્રયાસ કરો.&lt;/Data></item>
+        <item quantity="one">&lt;Data>કેમેરા સાથે જોડાઈ શકતા નથી.&lt;br>. આ એપ&lt;font color=#FFCE16>&lt;b>%1$d સેકંડમાં&lt;/b>&lt;/font> બંધ થઈ જશે. આ પછી, એક કે બે મિનિટ રાહ જુઓ અને ફરી પ્રયાસ કરો.&lt;/Data></item>
+    </plurals>
+    <plurals name="exit_thermal_hint">
+        <item quantity="other">&lt;Data>હમણાં આ ડિવાઇસ ખુબ ગરમ છે.&lt;br>એપ &lt;font color=#FFCE16>&lt;b>%1$d સેકંડ્સમાં&lt;/b>&lt;/font> બંધ થઈ જશે. વર્તમાન પ્રગતિ આપમેળે સાચવવામાં આવી હતી.&lt;/Data></item>
+        <item quantity="one">&lt;Data>હમણાં આ ડિવાઇસ ખુબ ગરમ છે.&lt;br>એપ &lt;font color=#FFCE16>&lt;b>%1$d સેકંડમાં&lt;/b>&lt;/font> બંધ થઈ જશે. વર્તમાન પ્રગતિ આપમેળે સાચવવામાં આવી હતી.&lt;/Data></item>
+    </plurals>
+    <plurals name="exit_version_hint">
+        <item quantity="other">&lt;Data>તમે જે કૅમેરા વર્ઝનનો ઉપયોગ કરી રહ્યાં છો તે તમારા ડિવાઈસના મોડલ સાથે સુસંગત નથી.&lt;br>એપ &lt;font color=#FFCE16>&lt;b>%1$d માં બંધ થશે. સેકન્ડ્સ&lt;/b>&lt;/font>. કૅમેરા અપડેટ્સ અનઇન્સ્ટોલ કરો અને ફરી પ્રયાસ કરો.&lt;/Data></item>
+        <item quantity="one">&lt;Data>તમે જે કૅમેરા વર્ઝનનો ઉપયોગ કરી રહ્યાં છો તે તમારા ડિવાઈસના મોડલ સાથે સુસંગત નથી.&lt;br>એપ &lt;font color=#FFCE16>&lt;b>%1$d માં બંધ થશે. સેકન્ડ&lt;/b>&lt;/font>. કૅમેરા અપડેટ્સ અનઇન્સ્ટોલ કરો અને ફરી પ્રયાસ કરો.&lt;/Data></item>
+    </plurals>
+    <plurals name="fastmotion_pro_min_unit">
+        <item quantity="other">%1$d મિનિટ</item>
+        <item quantity="one">%1$d મિનિટ</item>
+    </plurals>
+    <plurals name="fastmotion_pro_sec_unit">
+        <item quantity="other">%1$d સેકન્ડ</item>
+        <item quantity="one">%1$d સેકન્ડ</item>
+    </plurals>
+    <plurals name="friend_mode_display_first_dialog">
+        <item quantity="other">ટાઈમર ચાલુ કર્યું (%1$d સેકન્ડ). ફોટા આ ડિવાઇસ પર ટ્રાંસફર કરવામાં આવશે.</item>
+        <item quantity="one">ટાઈમર ચાલુ કર્યું (%1$d સેકન્ડ). ફોટા આ ડિવાઇસ પર ટ્રાંસફર કરવામાં આવશે.</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">અડધા કલાક પહેલાં</item>
+        <item quantity="one">અડધા કલાક પહેલાં</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">1 કલાકમાં</item>
+        <item quantity="one">1 કલાકમાં</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">અડધા કલાકમાં</item>
+        <item quantity="one">અડધા કલાકમાં</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">તરત જ</item>
+        <item quantity="one">તરત જ</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d મિનિટમાં</item>
+        <item quantity="one">1 મિનિટમાં</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">હમણાં જ</item>
+        <item quantity="one">હમણાં જ</item>
+    </plurals>
+    <plurals name="live_workspace_delete_dialog_title">
+        <item quantity="other">%1$d ડ્રાફ્ટ્સ કાઢી નાખીએ?</item>
+        <item quantity="one">%1$d ડ્રાફ્ટ કાઢી નાખીએ?</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d આઇટમો પસંદ કરેલ છે</item>
+        <item quantity="one">%d આઇટમ પસંદ કરેલ છે</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d મિનિટ પહેલા</item>
+        <item quantity="one">1 મિનિટ પહેલા</item>
+    </plurals>
+    <plurals name="number_unit_seconds_split">
+        <item quantity="other">%ds</item>
+        <item quantity="one">%ds</item>
+    </plurals>
+    <plurals name="pref_camera_fastmotion_duration_unit">
+        <item quantity="other">%1$s મિનિટ</item>
+        <item quantity="one">%1$s મિનિટ</item>
+    </plurals>
+    <plurals name="pref_live_duration_prompt">
+        <item quantity="other">%d સેકંડ્સ રેકોર્ડ કરો</item>
+        <item quantity="one">%d સેકંડ રેકોર્ડ કરો</item>
+    </plurals>
+    <plurals name="timefreeze_guide_tip1">
+        <item quantity="other">તમે ફક્ત %d વિષયો સાથે ટાઇમ ફ્રીઝ વીડિયો શૂટ કરી શકો છો.</item>
+        <item quantity="one">તમે ફક્ત %d વિષય સાથે ટાઇમ ફ્રીઝ વીડિયો શૂટ કરી શકો છો.</item>
+    </plurals>
+    <plurals name="timer_burst_setting_total_count">
+        <item quantity="other">%1$s ફોટા</item>
+        <item quantity="one">%1$s ફોટો</item>
+    </plurals>
+</resources>

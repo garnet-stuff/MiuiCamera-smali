@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/view_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/monitor_popup_recyc_list_height" android:layout_marginTop="@dimen/monitor_popup_select_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <miuix.recyclerview.widget.RecyclerView android:id="@id/list_recycler" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

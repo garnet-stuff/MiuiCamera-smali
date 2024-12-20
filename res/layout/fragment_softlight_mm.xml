@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/softlight_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/slide_tip_textsize" android:textStyle="normal" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/softlight_tip" android:background="@android:color/transparent" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#80000000" android:shadowRadius="1.0" />
+    <com.android.camera.ui.NoScrollViewPager android:layout_gravity="bottom|center" android:id="@id/softlight_viewPager" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.android.camera.ui.TopAlertSlideSwitchButton android:layout_gravity="center_horizontal" android:id="@id/softlight_mode" android:layout_width="wrap_content" android:layout_height="@dimen/softlight_selector_layout_height" android:layout_marginTop="@dimen/softlight_selector_margin" android:layout_marginBottom="@dimen/softlight_selector_margin" app:childMargin="@dimen/tilt_selector_child_margin" app:indicatorColor="#ffffffff" app:isTextView="true" app:textSize="@dimen/tilt_selector_layout_text_size" />
+</LinearLayout>

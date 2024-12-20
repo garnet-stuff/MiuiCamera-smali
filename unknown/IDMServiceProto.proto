@@ -1,0 +1,190 @@
+syntax = "proto3";
+
+package com.xiaomi.idm.api.proto;
+
+option java_package = "com.xiaomi.idm.api.proto";
+option java_outer_classname = "IDMServiceProto";
+
+message IDMService {
+  string serviceId = 1;
+  string type = 2;
+  string name = 3;
+  Endpoint endpoint = 4;
+  string originalServiceId = 5; // reserved for older version
+  string superType = 6;
+  bytes appData = 7;
+}
+
+message Endpoint {
+  string idhash = 1;
+  string name = 2;
+  string mac = 3;
+  string ip = 4;
+  string bdAddr = 5;
+  int32 mcVersion = 6;
+  int32 verifyStatus = 7;
+  int32 sdkVersion = 8;
+  string compareNum = 9;
+  int32 deviceType = 10;
+  int32 rssi = 11;
+  int32 distance = 12;
+  float altitude = 13;
+  float azimuth = 14;
+}
+
+message IDMRequest {
+  string serviceId = 1;
+  int32 aid = 2;
+  string requestId = 3;
+  string clientId = 4;
+  bytes request = 15; // reserved for filed below 15
+}
+
+message IDMResponse {
+  int32 code = 1;
+  string msg = 2;
+  string requestId = 3;
+  string serviceId = 4;
+  string clientId = 5;
+  bytes response = 15; // reserved for filed below 15
+}
+
+message IDMEvent {
+  string serviceId = 1;
+  int32 eid = 2;
+  bool enable = 3;
+  string clientId = 4;
+  string requestId = 5;
+  bytes event = 15; // reserved for filed below 15
+}
+
+message IDMEventResult {
+  int32 code = 1;
+  int32 eid = 2;
+  string serviceId = 3;
+  string clientId = 4;
+}
+
+message IDMEventResponse {
+  int32 code = 1;
+  string msg = 2;
+  string requestId = 3;
+  string serviceId = 4;
+  string clientId = 5;
+  bytes response = 15; // reserved for filed below 15
+}
+
+message IDMConnectServiceRequest {
+  int32 status = 1;
+  string serviceId = 2;
+  Endpoint endpoint = 3;
+  ConnParam connParam = 4;
+  string clientId = 5;
+}
+
+message IDMConnectServiceResponse {
+  int32 status = 1;
+  string serviceId = 2;
+  Endpoint endpoint = 3;
+  ConnParam connParam = 4;
+  string clientId = 5;
+  int32 connLevel = 6;
+}
+
+message IDMAdvertisingResult {
+  int32 status = 1;
+  string serviceId = 2;
+}
+
+message OnServiceChangeResult{
+  string serviceId = 1;
+  string newServiceId = 2;
+  SubChangeType subChangeType = 4;
+  enum SubChangeType {
+    LOGIN = 0;
+    LOGOUT = 1;
+    CHANGE = 2;
+  }
+}
+
+message OnAccountChangeResult {
+  SubChangeType subChangeType = 1;
+  bytes newIdHash = 2;
+  string oldAccount = 3;
+  string newAccount = 4;
+  enum SubChangeType {
+    LOGIN = 0;
+    LOGOUT = 1;
+    CHANGE = 2;
+  }
+}
+
+message ConnParam {
+  ConnType connType = 1;
+  int32 errCode = 2;
+  string errMsg = 3;
+  string idHash = 4;
+  int32 connLevel = 5;
+  bytes privateData = 6;
+  int32 linkRole = 7;
+  int32 rpcChannel = 8;
+  bytes config = 15; // reserved for filed below 15
+  enum ConnType {
+    WIFI_P2P_GO = 0;
+    WIFI_P2P_GC = 1;
+    WIFI_SOFTAP = 2;
+    WIFI_STATION = 3;
+    BT_RFCOMM = 0x04;
+    BT_GATT = 0x08;
+    BLE_GATT = 0x10;
+    COAP = 0x20;
+    NFC = 0x40;
+    IDB = 0x80;
+    WLAN_P2P = 0x100;
+    WLAN_SOFTAP = 0x200;
+    WLAN_GC_SOFTAP = 0x400;
+    UNKNOWN = -1;
+  }
+}
+
+message WifiConfig {
+  string ssid = 1;
+  string pwd = 2;
+  bool use5GBand = 3;
+  int32 channel = 4;
+  string macAddr = 5;
+  string remoteIp = 6;
+  string localIp = 7;
+}
+
+message BTConfig {
+  string staticBTAddress = 1;
+  int32 rssi = 2;
+}
+
+message BLEConfig {
+  int32 bleRole = 1;
+  string bleAddress = 2;
+  int32 rssi = 3;
+}
+
+message ConnectionQRCode {
+  int32 connType = 1;
+  int32 channel = 2;
+  string macAddr = 3;
+  string pwd = 4;
+  string ssid = 5;
+  string idHash = 6;
+}
+
+message ServiceInfo {
+  string serviceType = 1;
+  int32 appId = 2;
+}
+
+message IDMBlock {
+  string clientId = 1;
+  string serviceId = 2;
+  int32 sn = 3;
+  bytes data = 15;
+}

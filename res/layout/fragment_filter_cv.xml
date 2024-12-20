@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="bottom" android:id="@id/filter_cv_frame_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.camera.ui.EdgeSpringBackLayout android:layout_gravity="center" android:id="@id/filter_spring_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:edge="top" app:edge_size="@dimen/pad_filter_list_blur_effect_height" app:scrollOrientation="horizontal" app:scrollableView="@id/effect_list">
+        <com.android.camera2.compat.theme.custom.cv.FilterSelectViewCV android:id="@id/effect_list" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.android.camera.ui.EdgeSpringBackLayout>
+    <com.android.camera2.compat.theme.custom.cv.FilterSelectedIndicatorView android:layout_gravity="center" android:id="@id/effect_item_selected_indicator" android:visibility="visible" android:layout_width="@dimen/effect_realtime_item_layout_width" android:layout_height="@dimen/effect_realtime_item_layout_width" />
+</FrameLayout>

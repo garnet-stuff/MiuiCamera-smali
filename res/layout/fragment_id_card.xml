@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.privacywatermark.PrivacyWatermarkView android:id="@id/privacy_watermark_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.camera.fragment.idcard.IDCardView android:orientation="horizontal" android:id="@id/id_card_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="@dimen/id_card_hint_text_size" android:textColor="@color/white" android:id="@id/hint" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/id_card_hint_max_width" android:text="@string/id_card_mode_hint_front" android:textAlignment="center" />
+    <include android:id="@id/popup_tip_privacy_watermark_edit" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/popup_tip_privacy_watermark_edit" />
+</FrameLayout>

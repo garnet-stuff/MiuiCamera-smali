@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">(-il) siegħa ilu</item>
+        <item quantity="one">Siegħa ilu</item>
+        <item quantity="few">Sigħat ilu</item>
+        <item quantity="many">(-il) siegħa ilu</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">Siegħa %d ilu</item>
+        <item quantity="one">Siegħa %d ilu</item>
+        <item quantity="few">Siegħa %d ilu</item>
+        <item quantity="many">Siegħa %d ilu</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">Nofs siegħa ilu</item>
+        <item quantity="one">Nofs siegħa ilu</item>
+        <item quantity="few">Nofs siegħa ilu</item>
+        <item quantity="many">Nofs siegħa ilu</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">Fi żmien siegħa %d</item>
+        <item quantity="one">Fi żmien siegħa %d</item>
+        <item quantity="few">Fi żmien siegħa %d</item>
+        <item quantity="many">Fi żmien siegħa %d</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">Nofs siegħa oħra</item>
+        <item quantity="one">Nofs siegħa oħra</item>
+        <item quantity="few">Nofs siegħa oħra</item>
+        <item quantity="many">Nofs siegħa oħra</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Minnufih</item>
+        <item quantity="one">Minnufih</item>
+        <item quantity="few">Minnufih</item>
+        <item quantity="many">Minnufih</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">Fi żmien %d minuta</item>
+        <item quantity="one">Fi żmien minuta %d</item>
+        <item quantity="few">Fi żmien %d minuti</item>
+        <item quantity="many">Fi żmien %d-il minuta</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Issa</item>
+        <item quantity="one">Issa</item>
+        <item quantity="few">Issa</item>
+        <item quantity="many">Issa</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d minuta ilu</item>
+        <item quantity="one">Minuta %d ilu</item>
+        <item quantity="few">%d minuti ilu</item>
+        <item quantity="many">%d-il minuta ilu</item>
+    </plurals>
+    <plurals name="accessibility_auto_night_tip">
+        <item quantity="other">"Timer ta' %d sekonda għall-Modalità tal-lejl"</item>
+        <item quantity="one">"Timer ta' sekonda %d għall-Modalità tal-lejl"</item>
+        <item quantity="few">"Timer ta' %d sekondi għall-Modalità tal-lejl"</item>
+        <item quantity="many">"Timer ta' %d-il sekonda għall-Modalità tal-lejl"</item>
+    </plurals>
+    <plurals name="accessibility_focus_face_detect">
+        <item quantity="other">Iffukat. %d wiċċ misjub</item>
+        <item quantity="one">Iffukat. Wiċċ %d misjub</item>
+        <item quantity="few">Iffukat. %d uċuħ misjub</item>
+        <item quantity="many">Iffukat. %d-il wiċċ misjub</item>
+    </plurals>
+    <plurals name="accessibility_timer_burst_count">
+        <item quantity="other">"%d(-il) ritratt minn serje ta' ritratti"</item>
+        <item quantity="one">"Ritratti %d minn serje ta' ritratti"</item>
+        <item quantity="few">"%d ritratti minn serje ta' ritratti"</item>
+        <item quantity="many">"%d(-il) ritratt minn serje ta' ritratti"</item>
+    </plurals>
+    <plurals name="accessibility_timer_burst_interval">
+        <item quantity="other">Intervall: %d(-il) sekonda</item>
+        <item quantity="one">Intervall: sekonda %d</item>
+        <item quantity="few">Intervall: %d sekondi</item>
+        <item quantity="many">Intervall: %d(-il) sekonda</item>
+    </plurals>
+    <plurals name="accessibility_vv_duartion">
+        <item quantity="other">Tul: %d(-il) sekonda</item>
+        <item quantity="one">Tul: sekonda %d</item>
+        <item quantity="few">Tul: %d sekondi</item>
+        <item quantity="many">Tul: %d(-il) sekonda</item>
+    </plurals>
+    <plurals name="cinemaster_toast_camera_overflow">
+        <item quantity="other">"Tista' tqabbad sa %d kamera mal-istess netwerk"</item>
+        <item quantity="one">"Tista' tqabbad sa kamera %d mal-istess netwerk"</item>
+        <item quantity="few">"Tista' tqabbad sa %d kameras mal-istess netwerk"</item>
+        <item quantity="many">"Tista' tqabbad sa %d-il kamera mal-istess netwerk"</item>
+    </plurals>
+    <plurals name="cinemaster_toast_monitor_overflow">
+        <item quantity="other">"Tista' tqabbad sa %d monitor mal-istess netwerk"</item>
+        <item quantity="one">"Tista' tqabbad sa monitor %d mal-istess netwerk"</item>
+        <item quantity="few">"Tista' tqabbad sa %d monitors mal-istess netwerk"</item>
+        <item quantity="many">"Tista' tqabbad sa %d-il monitor mal-istess netwerk"</item>
+    </plurals>
+    <plurals name="clone_guide_tip2">
+        <item quantity="other">"Tista' toħloq sa %d(-il) klonu kull darba."</item>
+        <item quantity="one">"Tista' toħloq sa klonu %d kull darba."</item>
+        <item quantity="few">"Tista' toħloq sa %d kloni kull darba."</item>
+        <item quantity="many">"Tista' toħloq sa %d(-il) klonu kull darba."</item>
+    </plurals>
+    <plurals name="exit_camera_hint">
+        <item quantity="other">"&lt;Data>Ma jistax jaqbad mal-kamera. &lt;br>Din l-applikazzjoni se tingħalaq fi &lt;font color=#FFCE16>&lt;b>%1$d sekondi&lt;/b>&lt;/font>. Wara dan, stenna minuta jew tnejn u erġa' pprova.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>Ma jistax jaqbad mal-kamera. &lt;br>Din l-applikazzjoni ser tingħalaq fi &lt;font color=#FFCE16>&lt;b>%1$d sekonda/b>&lt;/font>. Wara dan, stenna minuta jew tnejn u erġa' pprova.&lt;/Data>"</item>
+        <item quantity="few">"&lt;Data>Ma jistax jaqbad mal-kamera. &lt;br>Din l-applikazzjoni se tingħalaq fi &lt;font color=#FFCE16>&lt;b>%1$d-il sekonda&lt;/b>&lt;/font>. Wara dan, stenna minuta jew tnejn u erġa' pprova.&lt;/Data>"</item>
+        <item quantity="many">"&lt;Data>Ma jistax jaqbad mal-kamera. &lt;br>Din l-applikazzjoni se tingħalaq fi &lt;font color=#FFCE16>&lt;b>%1$d sekonda&lt;/b>&lt;/font>. Wara dan, stenna minuta jew tnejn u erġa' pprova.&lt;/Data>"</item>
+    </plurals>
+    <plurals name="exit_thermal_hint">
+        <item quantity="other">"&lt;Data>Dan it-tagħmir issa saħan iżżejjed.&lt;br>Din l-applikazzjoni se tingħalaq fi &lt;font color=#FFCE16>&lt;b>%1$d sekondi&lt;/b>&lt;/font>. Il-progress li sar s'issa kien issejvjat awtomatikament.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>Dan it-tagħmir issa saħan iżżejjed.&lt;br>Din l-applikazzjoni se tingħalaq fi &lt;font color=#FFCE16>&lt;b>%1$d sekonda&lt;/b>&lt;/font>. Il-progress li sar s'issa kien issejvjat awtomatikament.&lt;/Data>"</item>
+        <item quantity="few">"&lt;Data>Dan it-tagħmir issa saħan iżżejjed.&lt;br>Din l-applikazzjoni se tingħalaq fi &lt;font color=#FFCE16>&lt;b>%1$d-il sekonda&lt;/b>&lt;/font>. Il-progress li sar s'issa kien issejvjat awtomatikament.&lt;/Data>"</item>
+        <item quantity="many">"&lt;Data>Dan it-tagħmir issa saħan iżżejjed.&lt;br>Din l-applikazzjoni se tingħalaq fi &lt;font color=#FFCE16>&lt;b>%1$d sekonda&lt;/b>&lt;/font>. Il-progress li sar s'issa kien issejvjat awtomatikament.&lt;/Data>"</item>
+    </plurals>
+    <plurals name="exit_version_hint">
+        <item quantity="other">"&lt;Data>Il-verżjoni ta' Kamera li qed tuża mhix kompatibbli mal-mudell tat-tagħmir tiegħek.&lt;br>Dil-app se tingħalaq f'&lt;font color=#FFCE16>&lt;b>%1$d sekonda&lt;/b>&lt;/font>. Neħħi l-aġġornamenti ta' Kamera u erġa' pprova.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>Il-verżjoni ta' Kamera li qed tuża mhix kompatibbli mal-mudell tat-tagħmir tiegħek.&lt;br>Dil-app se tingħalaq f'&lt;font color=#FFCE16>&lt;b>sekonda %1$d&lt;/b>&lt;/font>. Neħħi l-aġġornamenti ta' Kamera u erġa' pprova.&lt;/Data>"</item>
+        <item quantity="few">"&lt;Data>Il-verżjoni ta' Kamera li qed tuża mhix kompatibbli mal-mudell tat-tagħmir tiegħek.&lt;br>Dil-app se tingħalaq f'&lt;font color=#FFCE16>&lt;b>%1$d sekondi&lt;/b>&lt;/font>. Neħħi l-aġġornamenti ta' Kamera u erġa' pprova.&lt;/Data>"</item>
+        <item quantity="many">"&lt;Data>Il-verżjoni ta' Kamera li qed tuża mhix kompatibbli mal-mudell tat-tagħmir tiegħek.&lt;br>Dil-app se tingħalaq fi &lt;font color=#FFCE16>&lt;b>%1$d-il sekonda&lt;/b>&lt;/font>. Neħħi l-aġġornamenti ta' Kamera u erġa' pprova.&lt;/Data>"</item>
+    </plurals>
+    <plurals name="fastmotion_pro_min_unit">
+        <item quantity="other">%1$d(-il) min</item>
+        <item quantity="one">min %1$d</item>
+        <item quantity="few">%1$d min</item>
+        <item quantity="many">%1$d(-il) min</item>
+    </plurals>
+    <plurals name="fastmotion_pro_sec_unit">
+        <item quantity="other">%1$d(-il) sek</item>
+        <item quantity="one">sek %1$d</item>
+        <item quantity="few">%1$d sek</item>
+        <item quantity="many">%1$d(-il) sek</item>
+    </plurals>
+    <plurals name="friend_mode_display_first_dialog">
+        <item quantity="other">Xgħelt it-timer (%1$d sekonda). Ir-ritratti se jitmexxew għal dan it-tagħmir.</item>
+        <item quantity="one">Xgħelt it-timer (sekonda %1$d). Ir-ritratti se jitmexxew għal dan it-tagħmir.</item>
+        <item quantity="few">Xgħelt it-timer (%1$d sekondi). Ir-ritratti se jitmexxew għal dan it-tagħmir.</item>
+        <item quantity="many">Xgħelt it-timer (%1$d-il sekonda). Ir-ritratti se jitmexxew għal dan it-tagħmir.</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">Nofs siegħa ilu</item>
+        <item quantity="one">Nofs siegħa ilu</item>
+        <item quantity="few">Nofs siegħa ilu</item>
+        <item quantity="many">Nofs siegħa ilu</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">Siegħa oħra</item>
+        <item quantity="one">Siegħa oħra</item>
+        <item quantity="few">Siegħa oħra</item>
+        <item quantity="many">Siegħa oħra</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">Nofs siegħa oħra</item>
+        <item quantity="one">Nofs siegħa oħra</item>
+        <item quantity="few">Nofs siegħa oħra</item>
+        <item quantity="many">Nofs siegħa oħra</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Minnufih</item>
+        <item quantity="one">Minnufih</item>
+        <item quantity="few">Minnufih</item>
+        <item quantity="many">Minnufih</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d(-il) minuta oħra</item>
+        <item quantity="one">minuta oħra</item>
+        <item quantity="few">%d minuti oħra</item>
+        <item quantity="many">%d(-il) minuta oħra</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Issa</item>
+        <item quantity="one">Issa</item>
+        <item quantity="few">Issa</item>
+        <item quantity="many">Issa</item>
+    </plurals>
+    <plurals name="live_workspace_delete_dialog_title">
+        <item quantity="other">Trid tħassar %1$d(-il) abbozz?</item>
+        <item quantity="one">Trid tħassar abbozz %1$d?</item>
+        <item quantity="few">Trid tħassar %1$d abbozzi?</item>
+        <item quantity="many">Trid tħassar %1$d(-il) abbozz?</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d oġġett magħżul</item>
+        <item quantity="one">Oġġett %d magħżul</item>
+        <item quantity="few">%d oġġett magħżulin</item>
+        <item quantity="many">%d-il oġġett magħżula</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d(-il) minuta ilu</item>
+        <item quantity="one">Minuta ilu</item>
+        <item quantity="few">%d minuti ilu</item>
+        <item quantity="many">%d(-il) minuta ilu</item>
+    </plurals>
+    <plurals name="number_unit_seconds_split">
+        <item quantity="other">%d sekonda</item>
+        <item quantity="one">Sekonda %d</item>
+        <item quantity="few">%d sekondi</item>
+        <item quantity="many">%d-il sekonda</item>
+    </plurals>
+    <plurals name="pref_camera_fastmotion_duration_unit">
+        <item quantity="other">%1$s(-il) min</item>
+        <item quantity="one">Min %1$s</item>
+        <item quantity="few">%1$s min</item>
+        <item quantity="many">%1$s(-il) min</item>
+    </plurals>
+    <plurals name="pref_live_duration_prompt">
+        <item quantity="other">Irreġistra %d(-il) sekonda</item>
+        <item quantity="one">Irreġistra sekonda %d</item>
+        <item quantity="few">Irreġistra %d sekondi</item>
+        <item quantity="many">Irreġistra %d(-il) sekonda</item>
+    </plurals>
+    <plurals name="timefreeze_guide_tip1">
+        <item quantity="other">"Tista' tiġbed il-vidjos bil-ħin iffriżat bi %d(-il) suġġett biss."</item>
+        <item quantity="one">"Tista' tiġbed il-vidjos bil-ħin iffriżat b'suġġett %d biss."</item>
+        <item quantity="few">"Tista' tiġbed il-vidjos bil-ħin iffriżat b'%d suġġetti biss."</item>
+        <item quantity="many">"Tista' tiġbed il-vidjos bil-ħin iffriżat bi %d(-il) suġġett biss."</item>
+    </plurals>
+    <plurals name="timer_burst_setting_total_count">
+        <item quantity="other">%1$s(-il) ritratt</item>
+        <item quantity="one">Ritratt %1$s</item>
+        <item quantity="few">%1$s ritratti</item>
+        <item quantity="many">%1$s(-il) ritratt</item>
+    </plurals>
+</resources>

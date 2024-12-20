@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/monitor_magic_device_checked_border" android:color="@color/monitor_magic_device_checked" />
+    <solid android:color="@android:color/transparent" />
+</shape>

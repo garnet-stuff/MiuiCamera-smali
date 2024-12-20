@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/rotate_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/aiwatermark_location_rl_padding" android:paddingVertical="@dimen/aiwatermark_location_time_2_tb_padding">
+        <View android:background="@color/color_white" android:layout_width="@dimen/aiwatermark_location_time_2_view_width" android:layout_height="@dimen/aiwatermark_location_time_2_view_height" />
+        <TextView android:textSize="@dimen/aiwatermark_location_time_2_location_text_size" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/location_time_2_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aiwatermark_location_3_text_margin_top" android:maxWidth="@dimen/aiwatermark_location_2_text_max_width" android:maxLines="3" android:fontFamily="mipro-normal" />
+        <TextView android:textSize="@dimen/aiwatermark_location_time_2_time_text_size" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/location_time_2_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aiwatermark_location_3_time_margin_top" android:maxWidth="@dimen/aiwatermark_location_time_2_time_max_width" android:maxLines="1" android:fontFamily="mipro-normal" />
+    </LinearLayout>
+</LinearLayout>

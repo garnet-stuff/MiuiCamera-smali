@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="138.0dip" android:layout_height="138.0dip" android:layout_marginBottom="@dimen/mimoji_emoticon_offset"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_item_mimoji_emoticon" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <CheckBox android:theme="@style/MimojiCheckBox" android:id="@id/image_item_select" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

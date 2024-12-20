@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/top_menu_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.ShapeBackGroundView android:id="@id/top_menu_background" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_gravity="center|top" android:id="@id/top_menu" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/setting_tootle_item_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/top_menu_item_imageview_size">
+            <com.airbnb.lottie.LottieAnimationView android:layout_gravity="end" android:id="@id/setting_view" android:layout_width="@dimen/top_menu_item_width" android:layout_height="@dimen/top_menu_item_imageview_size" android:src="@drawable/ic_vector_config_extra_setting_top_mm" android:scaleType="centerInside" android:contentDescription="@string/config_name_setting" android:paddingStart="@dimen/top_menu_item_imageview_padding_start" android:paddingEnd="@dimen/top_menu_item_imageview_padding_start" />
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/top_menu_recyclerview" android:paddingBottom="@dimen/top_slide_recycler_padding_bottom" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+        <include android:id="@id/layout_burst_menu" android:visibility="gone" layout="@layout/timer_burst_menu" />
+        <include android:id="@id/layout_reference_line" android:visibility="gone" layout="@layout/reference_line_menu" />
+        <include android:id="@id/layout_watermark" android:visibility="gone" layout="@layout/watermark_menu" />
+        <com.android.camera2.compat.theme.custom.mm.top.TopExpendViewMM android:gravity="bottom" android:id="@id/top_menu_expand_view" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/top_slide_recycler_padding_bottom" />
+    </FrameLayout>
+</FrameLayout>

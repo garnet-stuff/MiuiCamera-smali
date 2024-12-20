@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/watermark_dialog_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/vp_user_define_words" android:layout_width="fill_parent" android:layout_height="wrap_content" android:selectAllOnFocus="true" android:inputType="textNoSuggestions" android:imeOptions="actionDone" android:textAlignment="viewStart" android:paddingStart="@dimen/vp_workspace_item_edit_text_padding_start" android:paddingEnd="@dimen/watermark_count_view_width" />
+    <TextView android:textSize="@dimen/watermark_summer_text_size" android:textColor="@color/watermark_summer_text_color" android:gravity="center" android:layout_gravity="end|center" android:id="@id/vp_user_define_words_tips" android:layout_width="@dimen/watermark_count_view_width" android:layout_height="wrap_content" />
+</FrameLayout>

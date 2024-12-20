@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.camera.ui.ScrollTextview android:ellipsize="marquee" android:id="@id/cvtype_btn_select_cv" android:layout_marginBottom="@dimen/cvtype_btn_select_marginbottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/ButtonStyle.Primary.Dark" />
+    <FrameLayout android:id="@id/cvtype_viewpager_layout_cv" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/cvtype_hint_viewpager_height" android:layout_marginBottom="@dimen/cvtype_hint_viewpager_marginbottom" android:layout_above="@id/cvtype_btn_select_cv" android:layout_centerHorizontal="true">
+        <com.android.camera.ui.NestedSpringBackLayout android:layout_gravity="center_horizontal" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:scrollOrientation="horizontal" app:scrollableView="@id/cvtype_viewpager_cv">
+            <androidx.viewpager.widget.ViewPager android:id="@id/cvtype_viewpager_cv" android:clipChildren="false" android:layout_width="@dimen/cvtype_hint_viewpager_width" android:layout_height="fill_parent" />
+        </com.android.camera.ui.NestedSpringBackLayout>
+    </FrameLayout>
+    <com.android.camera.ui.ScrollTextview android:textSize="@dimen/cvtype_hint_title_size" android:textColor="@color/cvtype_hint_title_color" android:ellipsize="marquee" android:id="@id/cvtype_hint_title_cv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cvtype_hint_title_marginbottom" android:maxWidth="@dimen/cvtype_textview_maxwidth" android:text="@string/cvtype_hint_title" android:singleLine="true" android:layout_above="@id/cvtype_viewpager_layout_cv" android:layout_centerHorizontal="true" />
+</RelativeLayout>

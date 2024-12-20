@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/mishot_topalert_histogram_select_height" android:width="@dimen/mishot_topalert_histogram_select_width" android:viewportWidth="26.0" android:viewportHeight="8.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffd9d9d9" android:pathData="M4,4m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+    <path android:fillColor="#00000000" android:pathData="M22,4m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" android:strokeColor="#ffffffff" android:strokeWidth="2.0" android:strokeAlpha="0.5" android:fillAlpha="0.5" />
+</vector>

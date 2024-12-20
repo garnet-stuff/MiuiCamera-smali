@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/slide_switch_button_item_image_size_cv" android:width="@dimen/slide_switch_button_item_image_size_cv" android:viewportWidth="44.0" android:viewportHeight="44.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ff000000" android:pathData="M22,25.8C12.611,25.8 5,29.2048 5,33.4C5,37.5952 12.611,41 22,41C31.389,41 39,37.5952 39,33.4C39,29.2048 31.389,25.8 22,25.8ZM22,3C19.4952,3 17.0929,4.0009 15.3218,5.7825C13.5506,7.5641 12.5556,9.9804 12.5556,12.5C12.5556,15.0196 13.5506,17.4359 15.3218,19.2175C17.0929,20.9991 19.4952,22 22,22C24.5048,22 26.9071,20.9991 28.6782,19.2175C30.4494,17.4359 31.4444,15.0196 31.4444,12.5C31.4444,9.9804 30.4494,7.5641 28.6782,5.7825C26.9071,4.0009 24.5048,3 22,3Z" />
+</vector>

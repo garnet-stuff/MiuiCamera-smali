@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/mode_icon_mm" android:layout_width="@dimen/mm_mode_new_icon_size" android:layout_height="@dimen/mm_mode_new_icon_size" />
+    <com.android.camera2.compat.theme.custom.cv.ui.AdaptiveTextViewCv android:textSize="@dimen/mode_select_item_text_size" android:textStyle="bold" android:textColor="@color/mode_edit_title_color" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/mode_name" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/cv_mode_item_width" android:singleLine="true" android:includeFontPadding="false" android:marqueeRepeatLimit="marquee_forever" android:importantForAccessibility="no" android:fallbackLineSpacing="false" />
+</FrameLayout>

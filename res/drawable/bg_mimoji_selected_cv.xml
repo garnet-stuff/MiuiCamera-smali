@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/vv_list_item_selected_indicator_stroke_width" android:color="@color/white" />
+    <solid android:color="@color/alpha60_black_cv" />
+    <corners android:radius="@dimen/filter_selected_indicator_outer_radius" />
+</shape>

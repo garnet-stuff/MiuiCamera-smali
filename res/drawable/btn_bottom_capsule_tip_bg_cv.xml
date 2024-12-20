@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/btn_bottom_capsule_tip_corners_radius_cv" />
+    <padding android:left="@dimen/btn_bottom_capsule_tip_left_padding_cv" android:top="@dimen/btn_bottom_capsule_tip_bottom_top_padding_cv" android:right="@dimen/btn_bottom_capsule_tip_right_padding_cv" android:bottom="@dimen/btn_bottom_capsule_tip_bottom_top_padding_cv" />
+    <stroke android:width="@dimen/btn_bottom_capsule_tip_corners_stroke_width_cv" android:color="@color/bottom_tip_bg_cv" />
+</shape>

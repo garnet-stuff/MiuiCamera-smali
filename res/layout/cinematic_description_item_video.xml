@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/cinematic_description_item_video" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.FastmotionTextureVideoView android:id="@id/cinematic_description_item_video_vv" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/fastmotion_description_item_video_vv_height" android:layout_marginTop="@dimen/fastmotion_description_item_video_black_view_margintop" />
+    <View android:id="@id/cinematic_description_item_video_cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/fastmotion_description_item_video_vv_height" android:layout_marginTop="@dimen/fastmotion_description_item_video_black_view_margintop" />
+    <View android:id="@id/cinematic_description_item_video_top_cover_line" android:background="@color/beautycamera_fragment_background" android:layout_width="fill_parent" android:layout_height="@dimen/fastmotion_description_item_video_black_view_height" android:layout_marginTop="@dimen/fastmotion_description_item_video_black_view_margintop" />
+    <com.android.camera.ui.MaskCircleCornerView android:id="@id/cinematic_description_item_video_vv_corner" android:layout_width="fill_parent" android:layout_height="@dimen/fastmotion_description_item_video_mask_corner_height" android:layout_marginTop="@dimen/fastmotion_description_item_video_black_view_margintop" />
+    <View android:background="@color/beautycamera_fragment_background" android:layout_width="fill_parent" android:layout_height="@dimen/fastmotion_description_item_video_black_view_height_compensation" android:layout_below="@id/cinematic_description_item_video_vv_corner" />
+</RelativeLayout>

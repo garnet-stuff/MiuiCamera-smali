@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:id="@id/zoom_view_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.ZoomView android:layout_gravity="center_vertical" android:id="@id/v6_zoom_view_horizontal" android:visibility="gone" android:layout_width="@dimen/pro_view_zoom_view_width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/bottom_action_top_margin_half" />
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/zoom_view_tips_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/slide_tip_textsize" android:textStyle="normal" android:textColor="@color/white" android:gravity="bottom|center" android:layout_gravity="bottom|center" android:id="@id/zoom_view_tip" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#bb000000" android:shadowRadius="0.2" />
+        <ViewStub android:layout_gravity="bottom|center" android:id="@id/audio_zoom_indicator_layout" android:layout="@layout/audio_zoom_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/audio_zoom_indicator_layout_bottom" />
+    </LinearLayout>
+</FrameLayout>

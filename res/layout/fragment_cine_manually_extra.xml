@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/cine_extra_scale_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.camera2.compat.theme.custom.mm.zoom.HorizontalScaleZoomView android:id="@id/cine_extra_horizontal_view" android:layout_width="wrap_content" android:layout_height="@dimen/cine_extra_scale_height" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/cine_manually_extra_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/cine_manually_extra_list" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+    </LinearLayout>
+</FrameLayout>

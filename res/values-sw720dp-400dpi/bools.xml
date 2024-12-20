@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="pref_cinemaster_mode_movie_solid_default">false</bool>
+</resources>

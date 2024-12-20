@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rotate_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingVertical="75.0px">
+        <LinearLayout android:orientation="vertical" android:id="@id/longitude_group" android:layout_width="@dimen/aiwatermark_log_lat_width_item" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/aiwatermark_log_lat_title_font" android:textColor="#ccffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/longitude_text" android:fontFamily="mipro-regular" />
+            <TextView android:textSize="@dimen/aiwatermark_log_lat_value_font" android:textColor="#ffffffff" android:gravity="center" android:id="@id/longitude" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aiwatermark_log_lat_title_value_gap" android:singleLine="true" android:fontFamily="mipro-regular" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/latitude_group" android:layout_width="@dimen/aiwatermark_log_lat_width_item" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/aiwatermark_log_lat_title_font" android:textColor="#ccffffff" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/latitude_text" android:fontFamily="mipro-regular" />
+            <TextView android:textSize="@dimen/aiwatermark_log_lat_value_font" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/latitude" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aiwatermark_log_lat_title_value_gap" android:singleLine="true" android:fontFamily="mipro-regular" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/altitude_group" android:layout_width="@dimen/aiwatermark_log_lat_width_item" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/aiwatermark_log_lat_title_font" android:textColor="#ccffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/altitude_text" android:fontFamily="mipro-regular" />
+            <TextView android:textSize="@dimen/aiwatermark_log_lat_value_font" android:textColor="#ffffffff" android:gravity="center" android:id="@id/altitude" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aiwatermark_log_lat_title_value_gap" android:singleLine="true" android:fontFamily="mipro-regular" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

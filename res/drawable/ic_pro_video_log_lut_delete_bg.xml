@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#ff262626" />
+    <corners android:radius="@dimen/video_log_lut_item_delete_drawable_radius" />
+    <size android:height="@dimen/video_log_lut_item_delete_tip_height" android:width="@dimen/video_log_lut_item_delete_tip_width" />
+</shape>

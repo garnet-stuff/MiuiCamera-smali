@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/bottom_action_top_margin_half" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/dual_layout_parent" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/dual_camera_button_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/manual_popup_camera_adjust_distance_size" android:layout_marginBottom="@dimen/manual_popup_camera_adjust_distance_size">
+            <com.android.camera.ui.zoom.ZoomRatioToggleView android:layout_gravity="center" android:id="@id/zoom_ratio_toggle_button" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clipChildren="false" android:layout_width="@dimen/zoom_indicator_layout_height" android:layout_height="wrap_content" />
+            <com.android.camera.ui.VerticalZoomView android:id="@id/dual_camera_zoom" android:paddingTop="@dimen/manual_extra_horizontal_view_padding_left" android:paddingBottom="@dimen/manual_extra_horizontal_view_padding_left" android:visibility="gone" android:layout_width="@dimen/zoom_slide_layout_height" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <com.android.camera.ui.zoom.ZoomIndexButtonsLayout android:id="@id/zoom_index_buttons_layout" android:visibility="gone" android:layout_width="@dimen/zoom_indexbutton_layout_height" android:layout_height="fill_parent" android:layout_marginTop="@dimen/manual_popup_camera_adjust_distance_size" android:layout_marginBottom="@dimen/manual_popup_camera_adjust_distance_size" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/dual_camera_zoom_tip_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/slide_tip_height" android:layout_marginBottom="@dimen/bottom_action_top_margin_half">
+        <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/dual_camera_zoom_tip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/slide_tip_textsize" android:textStyle="normal" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/dual_camera_zoom_tip_text" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <ViewStub android:layout_gravity="center" android:id="@id/audio_zoom_indicator_layout" android:layout="@layout/audio_zoom_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

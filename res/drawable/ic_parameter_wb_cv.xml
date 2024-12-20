@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/manua_desc_icon_size_cv" android:width="@dimen/manua_desc_icon_size_cv" android:viewportWidth="74.0" android:viewportHeight="74.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffd8d8d8" android:pathData="M1,10h72v54h-72z" android:fillAlpha="0.01" />
+    <path android:fillColor="#ffffffff" android:pathData="M12.322,51.19H16.768L23.228,28.808H23.456L29.954,51.19H34.4L42.342,21.816H37.82L32.044,44.046H31.854L25.622,21.816H21.062L14.982,44.046H14.754L8.978,21.816H4.456L12.322,51.19ZM60.4104,35.762C63.6784,34.85 65.5784,32.608 65.5784,29.34C65.5784,24.514 61.8164,21.816 55.0524,21.816H45.6664V51.19H55.1664C62.7664,51.19 66.9844,48.188 66.9844,42.754C66.9844,39.068 64.6284,36.56 60.4104,35.99V35.762ZM54.5204,25.806C58.7384,25.806 61.0944,27.212 61.0944,29.682C61.0944,32.38 58.7384,33.976 54.5584,33.976H49.9604V25.806H54.5204ZM49.9604,47.2V37.966H54.6724C59.7264,37.966 62.5384,39.524 62.5384,42.374C62.5384,45.49 59.7264,47.2 54.6344,47.2H49.9604Z" />
+</vector>
